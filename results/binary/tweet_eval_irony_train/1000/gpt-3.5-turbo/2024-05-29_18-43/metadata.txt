@@ -1,0 +1,68 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
+Dataset: tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 1000
+
+Results for run 1: 
+Matrix:
+430  315
+87  165
+Precision: 0.5771812080536913
+Recall: 0.8317214700193424
+F1-Score: 0.6814580031695722
+
+Errors (not parsed): 
+1 
+I'm sorry, I couldn't identify any specific statement in your message. Could you please provide more context or a specific statement for me to evaluate for irony?
+I cannot determine irony without a specific statement to evaluate.
+
+Results for run 2: 
+Matrix:
+429  321
+89  159
+Precision: 0.572
+Recall: 0.8281853281853282
+F1-Score: 0.6766561514195583
+
+Errors (not parsed): 
+I'm sorry, I couldn't detect any irony in that statement. 0
+I'm sorry, I need a statement to determine if it is ironic or not.
+
+Results for run 3: 
+Matrix:
+435  332
+83  147
+Precision: 0.5671447196870926
+Recall: 0.8397683397683398
+F1-Score: 0.6770428015564202
+
+Errors (not parsed): 
+I'm not sure about that statement. I can't detect irony in it.
+I cannot determine irony without a specific statement. Please provide a statement for me to evaluate.
+1 (yes)
+
+Results for run 4: 
+Matrix:
+434  319
+83  161
+Precision: 0.5763612217795485
+Recall: 0.839458413926499
+F1-Score: 0.6834645669291338
+
+Errors (not parsed): 
+I'm sorry, I cannot detect irony in your statement.
+1 
+I'm sorry, your input is not a statement for me to determine if it is ironic or not. Could you please provide a statement for me to evaluate?
+
+Results for run 5: 
+Matrix:
+432  312
+86  168
+Precision: 0.5806451612903226
+Recall: 0.833976833976834
+F1-Score: 0.6846275752773375
+
+Errors (not parsed): 
+I cannot determine if this statement is ironic without more context.
+1 
+

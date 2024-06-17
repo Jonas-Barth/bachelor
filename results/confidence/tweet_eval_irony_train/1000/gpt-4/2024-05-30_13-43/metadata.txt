@@ -1,0 +1,76 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic, and add a percentage value of how confident you are in your assessment. Make sure your response format is '[1 or 0] [Confidence Percentage]'
+Dataset: tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 1000
+
+Results for run 1: 
+Matrix:
+331  79
+188  401
+truepos confidence avg: 87.24169184290031
+falsepos confidence avg: 84.51898734177215
+falseneg confidence avg: 75.82446808510639
+trueneg confidence avg: 76.75561097256858
+Precision: 0.8073170731707318
+Recall: 0.6377649325626205
+F1-Score: 0.7125941872981701
+
+Errors (not parsed): 
+Apologies, but your statement does not provide a clear context to gauge whether it contains irony or not. Please provide a more detailed scenario.
+
+
+Results for run 2: 
+Matrix:
+340  83
+177  396
+truepos confidence avg: 87.41176470588235
+falsepos confidence avg: 81.97590361445783
+falseneg confidence avg: 76.44632768361582
+trueneg confidence avg: 78.08080808080808
+Precision: 0.8037825059101655
+Recall: 0.6576402321083172
+F1-Score: 0.723404255319149
+
+Errors (not parsed): 
+0 [95%]
+Please provide the content of the tweet for me to analyze.
+Cannot identify irony without a proper punchline or context. Please provide more information.
+0 [50%]
+
+
+Results for run 3: 
+Matrix:
+338  76
+179  404
+truepos confidence avg: 86.64792899408285
+falsepos confidence avg: 82.10526315789474
+falseneg confidence avg: 77.1731843575419
+trueneg confidence avg: 77.31188118811882
+Precision: 0.8164251207729468
+Recall: 0.6537717601547389
+F1-Score: 0.7261009667024704
+
+Errors (not parsed): 
+Additional context is needed in order to accurately determine whether this statement is ironic or not.
+Your input is not a complete statement; it's a question without an answer, so irony cannot be determined from it. Please provide more context.
+0 Unable to Determine Confidence
+
+
+Results for run 4: 
+Matrix:
+342  78
+176  401
+truepos confidence avg: 87.30409356725146
+falsepos confidence avg: 85.32051282051282
+falseneg confidence avg: 76.51704545454545
+trueneg confidence avg: 77.33665835411472
+Precision: 0.8142857142857143
+Recall: 0.6602316602316602
+F1-Score: 0.7292110874200426
+
+Errors (not parsed): 
+Sorry, but there seems to be no statement provided for me to analyse for irony. Please provide a statement.
+Apologies, but I can't assist with that.
+Apologies, but I need more context to determine if this statement is ironic.
+
+

@@ -1,0 +1,69 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic, and add a percentage value of how confident you are in your assessment. Make sure your response format is '[1 or 0] [Confidence Percentage]'
+Dataset: archive\fixedsetreadin.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+28  65
+1  5
+truepos confidence avg: 88.39285714285714
+falsepos confidence avg: 86.84615384615384
+falseneg confidence avg: 70.0
+trueneg confidence avg: 81.0
+Precision: 0.3010752688172043
+Recall: 0.9655172413793104
+F1-Score: 0.45901639344262296
+
+Errors (not parsed): 
+I'm sorry, I cannot provide a response as the user's input has been deleted. If you have any other questions or statements, please let me know.
+
+
+Results for run 2: 
+Matrix:
+28  64
+1  6
+truepos confidence avg: 87.67857142857143
+falsepos confidence avg: 88.28125
+falseneg confidence avg: 95.0
+trueneg confidence avg: 77.5
+Precision: 0.30434782608695654
+Recall: 0.9655172413793104
+F1-Score: 0.46280991735537186
+
+Errors (not parsed): 
+I'm sorry, I cannot provide a response as the statement provided is not visible.
+
+
+Results for run 3: 
+Matrix:
+28  66
+1  4
+truepos confidence avg: 85.89285714285714
+falsepos confidence avg: 86.66666666666667
+falseneg confidence avg: 10.0
+trueneg confidence avg: 81.25
+Precision: 0.2978723404255319
+Recall: 0.9655172413793104
+F1-Score: 0.4552845528455285
+
+Errors (not parsed): 
+I'm sorry, I can't provide feedback on deleted content. If you have another statement or question, feel free to share.
+
+
+Results for run 4: 
+Matrix:
+25  65
+4  5
+truepos confidence avg: 87.6
+falsepos confidence avg: 86.84615384615384
+falseneg confidence avg: 83.75
+trueneg confidence avg: 83.0
+Precision: 0.2777777777777778
+Recall: 0.8620689655172413
+F1-Score: 0.4201680672268907
+
+Errors (not parsed): 
+[0] [50%]
+
+

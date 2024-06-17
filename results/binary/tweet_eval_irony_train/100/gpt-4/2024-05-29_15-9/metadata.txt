@@ -1,0 +1,41 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
+Dataset: tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+32  5
+17  45
+Sure about 32 true positives, 5 false positives, 15 false negatives, and 30 true negatives.
+Precision: 0.8648648648648649
+Recall: 0.6530612244897959
+F1-Score: 0.7441860465116279
+
+Results for run 2: 
+Matrix:
+32  6
+17  42
+Sure about 32 true positives, 6 false positives, 14 false negatives, and 28 true negatives.
+Precision: 0.8421052631578947
+Recall: 0.6530612244897959
+F1-Score: 0.735632183908046
+
+Results for run 3: 
+Matrix:
+31  4
+18  46
+Sure about 31 true positives, 4 false positives, 14 false negatives, and 35 true negatives.
+Precision: 0.8857142857142857
+Recall: 0.6326530612244898
+F1-Score: 0.7380952380952381
+
+Results for run 4: 
+Matrix:
+33  4
+16  46
+Sure about 33 true positives, 4 false positives, 15 false negatives, and 31 true negatives.
+Precision: 0.8918918918918919
+Recall: 0.673469387755102
+F1-Score: 0.7674418604651163
+

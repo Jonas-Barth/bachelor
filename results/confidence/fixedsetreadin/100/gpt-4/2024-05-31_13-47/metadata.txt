@@ -1,0 +1,71 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic, and add a percentage value of how confident you are in your assessment. Make sure your response format is '[1 or 0] [Confidence Percentage]'
+Dataset: datasets\fixedsetreadin.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+15  14
+14  55
+truepos confidence avg: 82.0
+falsepos confidence avg: 77.85714285714286
+falseneg confidence avg: 78.21428571428571
+trueneg confidence avg: 79.78181818181818
+Precision: 0.5172413793103449
+Recall: 0.5172413793103449
+F1-Score: 0.5172413793103449
+
+Errors (not parsed): 
+Apologies, but since there is no statement provided, I cannot make an assessment. Please provide a statement.
+[0] [100%]
+
+
+Results for run 2: 
+Matrix:
+15  13
+14  57
+truepos confidence avg: 83.33333333333333
+falsepos confidence avg: 84.15384615384616
+falseneg confidence avg: 79.64285714285714
+trueneg confidence avg: 81.0701754385965
+Precision: 0.5357142857142857
+Recall: 0.5172413793103449
+F1-Score: 0.5263157894736843
+
+Errors (not parsed): 
+As there is no statement given, a response cannot be made. Please provide a statement.
+
+
+Results for run 3: 
+Matrix:
+12  13
+17  56
+truepos confidence avg: 86.33333333333333
+falsepos confidence avg: 82.6923076923077
+falseneg confidence avg: 77.52941176470588
+trueneg confidence avg: 81.10714285714286
+Precision: 0.48
+Recall: 0.41379310344827586
+F1-Score: 0.4444444444444445
+
+Errors (not parsed): 
+As a language model AI, I'm unable to provide an irony detection analysis on a blank or a deleted input.
+Unable to process the request due to the presence of a URL/link. Please provide a text-based statement to evaluate for irony.
+
+
+Results for run 4: 
+Matrix:
+15  11
+14  59
+truepos confidence avg: 77.06666666666666
+falsepos confidence avg: 84.0909090909091
+falseneg confidence avg: 84.28571428571429
+trueneg confidence avg: 80.77966101694915
+Precision: 0.5769230769230769
+Recall: 0.5172413793103449
+F1-Score: 0.5454545454545454
+
+Errors (not parsed): 
+Apologies, but the statement appears to be deleted. I can't analyze it. Could you kindly provide another phrase or sentence for me to assess?
+
+

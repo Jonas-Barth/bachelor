@@ -1,0 +1,29 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with 'Yes' or 'No' depending on whether you think the following statements are ironic.
+Dataset: datasets\fixedsetreadin.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+15  35
+14  35
+Precision: 0.3
+Recall: 0.5172413793103449
+F1-Score: 0.379746835443038
+
+Errors (not parsed): 
+I cannot determine if the statement is ironic without context.
+
+
+Results for run 2: 
+Matrix:
+12  45
+17  26
+Precision: 0.21052631578947367
+Recall: 0.41379310344827586
+F1-Score: 0.27906976744186046
+
+Errors (not parsed): 
+
+
+Average F1 score across 2 runs: 0.32940830144244926

@@ -1,0 +1,52 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
+Dataset: datasets\fixedsetreadin.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+13  11
+16  59
+Precision: 0.5416666666666666
+Recall: 0.4482758620689655
+F1-Score: 0.49056603773584906
+
+Errors (not parsed): 
+As there's no content provided, I can't detect irony.
+
+
+Results for run 2: 
+Matrix:
+12  8
+17  62
+Precision: 0.6
+Recall: 0.41379310344827586
+F1-Score: 0.4897959183673469
+
+Errors (not parsed): 
+I'm sorry, I can't analyze the statement because it is missing.
+
+
+Results for run 3: 
+Matrix:
+12  10
+17  61
+Precision: 0.5454545454545454
+Recall: 0.41379310344827586
+F1-Score: 0.47058823529411764
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Matrix:
+11  8
+18  62
+Precision: 0.5789473684210527
+Recall: 0.3793103448275862
+F1-Score: 0.45833333333333337
+
+Errors (not parsed): 
+Apologies, but there's no statement to evaluate. Could you, please, provide a statement?
+
+

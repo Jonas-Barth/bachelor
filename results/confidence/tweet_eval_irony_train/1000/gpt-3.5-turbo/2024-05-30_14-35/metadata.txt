@@ -1,0 +1,71 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic, and add a percentage value of how confident you are in your assessment. Make sure your response format is '[1 or 0] [Confidence Percentage]'
+Dataset: tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 1000
+
+Results for run 1: 
+Matrix:
+511  444
+7  36
+truepos confidence avg: 85.97847358121331
+falsepos confidence avg: 85.42792792792793
+falseneg confidence avg: 51.42857142857143
+trueneg confidence avg: 67.91666666666667
+Precision: 0.5350785340314136
+Recall: 0.9864864864864865
+F1-Score: 0.6938221317040054
+
+Errors (not parsed): 
+I'm sorry, but I am unable to detect irony in the statement "much!!" as it is not a complete sentence or statement.
+I'm sorry, but I cannot detect irony without a specific statement to evaluate. Could you please provide a statement for me to analyze?
+
+
+Results for run 2: 
+Matrix:
+508  449
+10  32
+truepos confidence avg: 86.08267716535433
+falsepos confidence avg: 84.96659242761693
+falseneg confidence avg: 51.0
+trueneg confidence avg: 74.53125
+Precision: 0.5308254963427377
+Recall: 0.9806949806949807
+F1-Score: 0.6888135593220338
+
+Errors (not parsed): 
+I'm sorry, I need a statement to assess for irony. Please provide one.
+
+
+Results for run 3: 
+Matrix:
+508  440
+10  41
+truepos confidence avg: 86.54527559055119
+falsepos confidence avg: 85.375
+falseneg confidence avg: 44.5
+trueneg confidence avg: 75.2439024390244
+Precision: 0.5358649789029536
+Recall: 0.9806949806949807
+F1-Score: 0.6930422919508867
+
+Errors (not parsed): 
+I'm unable to determine the irony present in "True" without further context.
+
+
+Results for run 4: 
+Matrix:
+507  440
+11  40
+truepos confidence avg: 86.49901380670612
+falsepos confidence avg: 85.39772727272727
+falseneg confidence avg: 52.72727272727273
+trueneg confidence avg: 74.0
+Precision: 0.5353748680042238
+Recall: 0.9787644787644788
+F1-Score: 0.6921501706484642
+
+Errors (not parsed): 
+I cannot detect irony in the statement "much!!" [0 50%]
+I'm sorry, but your input is unclear. Please provide a statement that I can analyze for irony.
+
+

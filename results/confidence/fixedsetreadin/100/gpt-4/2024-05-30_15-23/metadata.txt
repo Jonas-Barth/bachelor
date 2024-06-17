@@ -1,0 +1,70 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic, and add a percentage value of how confident you are in your assessment. Make sure your response format is '[1 or 0] [Confidence Percentage]'
+Dataset: datasets\fixedsetreadin.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+13  14
+16  56
+truepos confidence avg: 85.61538461538461
+falsepos confidence avg: 85.57142857142857
+falseneg confidence avg: 73.6875
+trueneg confidence avg: 77.5
+Precision: 0.48148148148148145
+Recall: 0.4482758620689655
+F1-Score: 0.4642857142857143
+
+Errors (not parsed): 
+Unable to evaluate due to missing statement. Please provide a valid statement for analysis.
+
+
+Results for run 2: 
+Matrix:
+13  13
+16  57
+truepos confidence avg: 78.07692307692308
+falsepos confidence avg: 79.15384615384616
+falseneg confidence avg: 83.75
+trueneg confidence avg: 84.43859649122807
+Precision: 0.5
+Recall: 0.4482758620689655
+F1-Score: 0.4727272727272727
+
+Errors (not parsed): 
+Apologies, but there's no statement provided for me to evaluate its irony. Please provide a statement.
+
+
+Results for run 3: 
+Matrix:
+15  12
+14  58
+truepos confidence avg: 80.0
+falsepos confidence avg: 85.83333333333333
+falseneg confidence avg: 84.07142857142857
+trueneg confidence avg: 80.13793103448276
+Precision: 0.5555555555555556
+Recall: 0.5172413793103449
+F1-Score: 0.5357142857142857
+
+Errors (not parsed): 
+[Error] Unable to evaluate deleted and unspecified content.
+
+
+Results for run 4: 
+Matrix:
+14  11
+15  58
+truepos confidence avg: 78.92857142857143
+falsepos confidence avg: 83.63636363636364
+falseneg confidence avg: 81.66666666666667
+trueneg confidence avg: 82.12068965517241
+Precision: 0.56
+Recall: 0.4827586206896552
+F1-Score: 0.5185185185185185
+
+Errors (not parsed): 
+I'm sorry, but there is no content for me to analyze for irony. Please provide a statement.
+Apologies, but as a language model AI, I can't access or analyze external web content or URL links. Could you please provide me with the text or the context?
+
+

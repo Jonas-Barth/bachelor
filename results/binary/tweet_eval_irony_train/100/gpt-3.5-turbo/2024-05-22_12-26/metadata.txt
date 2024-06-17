@@ -1,0 +1,21 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
+Dataset: tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+44  33
+5  18
+Precision: 0.5714285714285714
+Recall: 0.8979591836734694
+F1-Score: 0.6984126984126985
+
+Results for run 2: 
+Matrix:
+44  38
+5  13
+Precision: 0.5365853658536586
+Recall: 0.8979591836734694
+F1-Score: 0.6717557251908397
+

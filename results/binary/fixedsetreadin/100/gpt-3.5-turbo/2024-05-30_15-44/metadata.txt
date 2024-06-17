@@ -1,0 +1,52 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
+Dataset: datasets\fixedsetreadin.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+24  62
+5  9
+Precision: 0.27906976744186046
+Recall: 0.8275862068965517
+F1-Score: 0.4173913043478261
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Matrix:
+25  61
+4  9
+Precision: 0.29069767441860467
+Recall: 0.8620689655172413
+F1-Score: 0.43478260869565216
+
+Errors (not parsed): 
+0
+
+
+
+
+Results for run 3: 
+Matrix:
+21  60
+8  11
+Precision: 0.25925925925925924
+Recall: 0.7241379310344828
+F1-Score: 0.38181818181818183
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Matrix:
+22  58
+7  13
+Precision: 0.275
+Recall: 0.7586206896551724
+F1-Score: 0.40366972477064217
+
+Errors (not parsed): 
+
+

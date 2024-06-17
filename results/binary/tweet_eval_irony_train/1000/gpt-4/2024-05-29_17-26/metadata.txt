@@ -1,0 +1,58 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
+Dataset: tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 1000
+
+Results for run 1: 
+Matrix:
+321  62
+197  419
+Precision: 0.8381201044386423
+Recall: 0.6196911196911197
+F1-Score: 0.7125416204217536
+
+Errors (not parsed): 
+This statement might be ironic, however without context it is impossible to determine absolutely. As an AI, I will default it to '0'.
+
+Results for run 2: 
+Matrix:
+320  61
+199  420
+Precision: 0.8398950131233596
+Recall: 0.6165703275529865
+F1-Score: 0.7111111111111111
+
+Errors (not parsed): 
+
+Results for run 3: 
+Matrix:
+321  65
+198  416
+Precision: 0.8316062176165803
+Recall: 0.6184971098265896
+F1-Score: 0.7093922651933702
+
+Errors (not parsed): 
+
+Results for run 4: 
+Matrix:
+332  70
+186  410
+Precision: 0.8258706467661692
+Recall: 0.640926640926641
+F1-Score: 0.7217391304347827
+
+Errors (not parsed): 
+This statement could potentially be ironic, but without additional context, it's unclear. My response therefore is '0'.
+This statement does not provide enough context to determine irony.
+
+Results for run 5: 
+Matrix:
+321  66
+198  415
+Precision: 0.8294573643410853
+Recall: 0.6184971098265896
+F1-Score: 0.7086092715231788
+
+Errors (not parsed): 
+
