@@ -1,0 +1,33 @@
+Model used: gpt-4
+Prompt: You are a sentiment detector. Assign the following tweets a sentiment from the following list depending on which you consider most appropriate: angry, sad, ironic, happy. Respond only with one word.
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+1  0
+48  49
+Precision: 1.0
+Recall: 0.02040816326530612
+F1-Score: 0.039999999999999994
+
+Errors (not parsed): 
+Neutral
+Neutral
+
+
+Results for run 2: 
+Matrix:
+1  0
+48  48
+Precision: 1.0
+Recall: 0.02040816326530612
+F1-Score: 0.039999999999999994
+
+Errors (not parsed): 
+Neutral
+Neutral
+Neutral
+
+
+Average F1 score across 2 runs: 0.039999999999999994

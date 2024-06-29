@@ -1,0 +1,36 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic, and add a percentage value of how confident you are in your assessment. Make sure your response format is '[1 or 0] [Confidence Percentage]'
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+49  45
+0  6
+truepos confidence avg: 86.53061224489795
+falsepos confidence avg: 85.77777777777777
+falseneg confidence avg: 0
+trueneg confidence avg: 69.16666666666667
+Precision: 0.5212765957446809
+Recall: 1.0
+F1-Score: 0.6853146853146853
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Matrix:
+49  46
+0  5
+truepos confidence avg: 87.65306122448979
+falsepos confidence avg: 86.30434782608695
+falseneg confidence avg: 0
+trueneg confidence avg: 76.0
+Precision: 0.5157894736842106
+Recall: 1.0
+F1-Score: 0.6805555555555556
+
+Errors (not parsed): 
+
+
+Average F1 score across 2 runs: 0.6829351204351204
