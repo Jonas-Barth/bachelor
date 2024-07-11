@@ -1,0 +1,66 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
+
+Alternate Prompt (prompt engineering): No
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 1000
+
+Results for run 1: 
+Matrix:
+403  255
+114  224
+Precision: 0.6124620060790273
+Recall: 0.7794970986460348
+F1-Score: 0.6859574468085106
+
+Errors (not parsed): 
+1 (yes)
+1 (yes)
+I cannot determine if a statement is ironic without seeing it. Could you please provide me with a statement to evaluate?
+0 (no)
+
+
+Results for run 2: 
+Matrix:
+393  271
+123  208
+Precision: 0.5918674698795181
+Recall: 0.7616279069767442
+F1-Score: 0.6661016949152543
+
+Errors (not parsed): 
+I'm sorry, but I cannot provide a response without a specific statement to evaluate for irony. Please provide a statement for me to analyze.
+1 (yes)
+0 (no)
+I'm sorry, I cannot respond to your statement as it is unclear. Please provide a specific statement for me to assess for irony.
+1 (yes)
+
+
+Results for run 3: 
+Matrix:
+394  268
+124  211
+Precision: 0.595166163141994
+Recall: 0.7606177606177607
+F1-Score: 0.6677966101694915
+
+Errors (not parsed): 
+I'm not sure what you're trying to convey here. Can you provide more context or rephrase your statement so I can determine if it's ironic?
+0 (no)
+I'm not sure what statement you're referring to. Could you please provide more context or the statement itself so I can determine if it's ironic or not?
+
+
+Results for run 4: 
+Matrix:
+400  256
+118  224
+Precision: 0.6097560975609756
+Recall: 0.7722007722007722
+F1-Score: 0.6814310051107326
+
+Errors (not parsed): 
+I'm sorry, I'm not sure what you mean by "much!!". Can you please provide more context or a complete statement for me to analyze?
+Ironic.
+
+
+Average F1 score across 4 runs: 0.6753216892509972

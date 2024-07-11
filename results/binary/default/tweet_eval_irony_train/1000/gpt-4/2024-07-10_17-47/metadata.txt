@@ -1,0 +1,54 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
+
+Alternate Prompt (prompt engineering): No
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 1000
+
+Results for run 1: 
+Matrix:
+329  72
+189  409
+Precision: 0.8204488778054863
+Recall: 0.6351351351351351
+F1-Score: 0.7159956474428726
+
+Errors (not parsed): 
+Insufficient context. Please provide more information.
+
+
+Results for run 2: 
+Matrix:
+323  66
+196  415
+Precision: 0.8303341902313625
+Recall: 0.6223506743737958
+F1-Score: 0.711453744493392
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Matrix:
+324  74
+194  407
+Precision: 0.8140703517587939
+Recall: 0.6254826254826255
+F1-Score: 0.7074235807860263
+
+Errors (not parsed): 
+This statement is missing context to make a definitive decision. Please provide more information.
+
+
+Results for run 4: 
+Matrix:
+321  65
+198  416
+Precision: 0.8316062176165803
+Recall: 0.6184971098265896
+F1-Score: 0.7093922651933702
+
+Errors (not parsed): 
+
+
+Average F1 score across 4 runs: 0.7110663094789152

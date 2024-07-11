@@ -1,0 +1,218 @@
+Model used: gpt-3.5-turbo
+Prompt: Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
+
+Alternate Prompt (prompt engineering): noDetector
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 1000
+
+Results for run 1: 
+Matrix:
+259  147
+238  322
+Precision: 0.6379310344827587
+Recall: 0.5211267605633803
+F1-Score: 0.5736434108527132
+
+Errors (not parsed): 
+0 (no)
+0 (no)
+1 (yes)
+0 (no)
+1 (yes)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+1 (yes)
+I'm sorry, could you please provide a specific statement for me to evaluate for irony?
+1 (yes)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+I need a statement to assess its irony. Could you please provide the statement?
+1 (yes)
+0 (no)
+0 (no)
+0 (no)
+1 (yes)
+0 (no)
+0 (no)
+
+
+Results for run 2: 
+Matrix:
+266  148
+228  314
+Precision: 0.642512077294686
+Recall: 0.5384615384615384
+F1-Score: 0.5859030837004404
+
+Errors (not parsed): 
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+1 (yes)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 // No
+0 (no)
+I'm sorry, I don't understand what you mean. Can you please provide a statement for me to evaluate for irony?
+1 (yes)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+I'm sorry, but I cannot determine whether the statement is true or false without knowing the specific statement you are referring to. Could you please provide more context or clarify the statement?
+0 (no)
+0 (no)
+1 (yes)
+0 (no)
+0 (no)
+0 (no)
+
+
+Results for run 3: 
+Matrix:
+265  151
+236  311
+Precision: 0.6370192307692307
+Recall: 0.5289421157684631
+F1-Score: 0.5779716466739366
+
+Errors (not parsed): 
+0 (no)
+0 (no)
+1 (yes)
+0 (no)
+0 (no)
+0 (no)
+1 (yes)
+0 (no)
+0 (no)
+0 (no)
+1 (yes)
+0 (no)
+I'm sorry, I'm not sure what you are trying to convey with "much!!" Could you please provide more context?
+1 (yes)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+I'm sorry, I cannot evaluate the accuracy of "True" without further context. Please provide a statement for me to determine if it is ironic or not.
+0 (no)
+1 (yes)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 - no
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+1 (yes)
+0 (no)
+0 (no)
+1 (yes)
+1 (yes)
+0 (no)
+0 (no)
+
+
+Results for run 4: 
+Matrix:
+267  134
+228  320
+Precision: 0.6658354114713217
+Recall: 0.5393939393939394
+F1-Score: 0.5959821428571429
+
+Errors (not parsed): 
+0 (no)
+0 (no)
+0 (no)
+1 (yes)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+1 (yes)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+1 (yes)
+1 (yes)
+0 (no)
+0 (no)
+I'm not sure what you're asking for, could you please provide a statement for me to evaluate for irony?
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+1 (yes)
+0 (no)
+0 (no)
+I cannot provide an answer without a specific statement to evaluate. Please provide the statement you would like me to assess for irony. Thank you.
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+1 (yes)
+1 (yes)
+0 (no)
+1 (yes)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+0 (no)
+
+
+Average F1 score across 4 runs: 0.5833750710210583

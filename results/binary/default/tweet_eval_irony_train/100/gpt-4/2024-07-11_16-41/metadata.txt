@@ -1,0 +1,63 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
+
+Alternate Prompt (prompt engineering): No
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+32  5
+17  46
+Precision: 0.8648648648648649
+Recall: 0.6530612244897959
+F1-Score: 0.7441860465116279
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Matrix:
+34  6
+15  45
+Precision: 0.85
+Recall: 0.6938775510204082
+F1-Score: 0.7640449438202247
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Matrix:
+31  6
+18  45
+Precision: 0.8378378378378378
+Recall: 0.6326530612244898
+F1-Score: 0.7209302325581396
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Matrix:
+31  7
+18  44
+Precision: 0.8157894736842105
+Recall: 0.6326530612244898
+F1-Score: 0.7126436781609196
+
+Errors (not parsed): 
+
+
+Results for run 5: 
+Matrix:
+30  6
+19  45
+Precision: 0.8333333333333334
+Recall: 0.6122448979591837
+F1-Score: 0.7058823529411765
+
+Errors (not parsed): 
+
+
+Average F1 score across 5 runs: 0.7295374507984176

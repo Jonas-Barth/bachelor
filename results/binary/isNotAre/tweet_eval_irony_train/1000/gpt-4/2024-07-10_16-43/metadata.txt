@@ -1,0 +1,56 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statement is ironic.
+Alternate Prompt (prompt engineering): isNotAre
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 1000
+
+Results for run 1: 
+Matrix:
+294  55
+225  426
+Precision: 0.8424068767908309
+Recall: 0.5664739884393064
+F1-Score: 0.6774193548387097
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Matrix:
+302  51
+216  430
+Precision: 0.8555240793201133
+Recall: 0.583011583011583
+F1-Score: 0.6934557979334098
+
+Errors (not parsed): 
+This statement is not automatically ironic. I cannot determine irony without more context. I would need more information to give a proper answer.
+
+
+Results for run 3: 
+Matrix:
+299  54
+217  427
+Precision: 0.8470254957507082
+Recall: 0.5794573643410853
+F1-Score: 0.6881472957422324
+
+Errors (not parsed): 
+I'm sorry but I cannot determine if the statement is ironic without additional contextual information. Please provide more details.
+Context is required to accurately determine whether this statement is ironic.
+Insufficient context. More information is needed to determine irony.
+
+
+Results for run 4: 
+Matrix:
+296  52
+222  429
+Precision: 0.8505747126436781
+Recall: 0.5714285714285714
+F1-Score: 0.6836027713625866
+
+Errors (not parsed): 
+This statement is ambiguous due to lack of context. It can be both ironic and non-ironic depending solely on the context in which it’s used.
+
+
+Average F1 score across 4 runs: 0.6856563049692347

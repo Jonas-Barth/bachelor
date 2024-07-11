@@ -1,0 +1,9 @@
+Manual Dataset:
+ - reassign wrong classifications?
+ - how to disclaim in writing?
+
+Writing:
+ - how to handle datasets? Allowed rename?
+ - Write about run lengths in methods
+
+

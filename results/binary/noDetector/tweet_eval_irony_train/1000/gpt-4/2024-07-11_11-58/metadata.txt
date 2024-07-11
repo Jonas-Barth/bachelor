@@ -1,0 +1,61 @@
+Model used: gpt-4
+Prompt: Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
+
+Alternate Prompt (prompt engineering): noDetector
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 1000
+
+Results for run 1: 
+Matrix:
+269  57
+250  422
+Precision: 0.8251533742331288
+Recall: 0.5183044315992292
+F1-Score: 0.6366863905325444
+
+Errors (not parsed): 
+This statement is not provided.
+Sorry, but your input doesn't seem to be a statement. Could you please provide a clear statement?
+
+
+Results for run 2: 
+Matrix:
+263  64
+255  415
+Precision: 0.8042813455657493
+Recall: 0.5077220077220077
+F1-Score: 0.6224852071005916
+
+Errors (not parsed): 
+Sorry, this statement cannot be evaluated for irony as it's a direct question, not a statement expressing irony.
+Sorry, your input is not a statement. Could you please provide a complete statement?
+This statement is too vague and requires more context to be considered ironic or not, thus it is not possible to give a fair judgement.
+
+
+Results for run 3: 
+Matrix:
+270  64
+249  415
+Precision: 0.8083832335329342
+Recall: 0.5202312138728323
+F1-Score: 0.6330597889800703
+
+Errors (not parsed): 
+This statement is not a valid prompt. Please provide a valid ironic statement.
+Your input is not a statement. Please provide a complete sentence.
+
+
+Results for run 4: 
+Matrix:
+274  66
+245  413
+Precision: 0.8058823529411765
+Recall: 0.5279383429672447
+F1-Score: 0.6379511059371361
+
+Errors (not parsed): 
+This prompt is not a statement, but a question. Hence, it cannot be determined if it's ironic or not.
+Sorry, this input does not contain a complete statement to determine irony. Could you please provide a full sentence?
+
+
+Average F1 score across 4 runs: 0.6325456231375857

@@ -1,0 +1,65 @@
+Model used: gpt-3.5-turbo
+Prompt: Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
+Alternate Prompt (prompt engineering): noDetector
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+36  26
+13  25
+Precision: 0.5806451612903226
+Recall: 0.7346938775510204
+F1-Score: 0.6486486486486487
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Matrix:
+38  17
+10  34
+Precision: 0.6909090909090909
+Recall: 0.7916666666666666
+F1-Score: 0.737864077669903
+
+Errors (not parsed): 
+0 (no)
+
+
+Results for run 3: 
+Matrix:
+36  24
+13  27
+Precision: 0.6
+Recall: 0.7346938775510204
+F1-Score: 0.6605504587155964
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Matrix:
+35  25
+14  26
+Precision: 0.5833333333333334
+Recall: 0.7142857142857143
+F1-Score: 0.6422018348623854
+
+Errors (not parsed): 
+
+
+Results for run 5: 
+Matrix:
+37  16
+12  33
+Precision: 0.6981132075471698
+Recall: 0.7551020408163265
+F1-Score: 0.7254901960784315
+
+Errors (not parsed): 
+0 (no)
+1 (yes)
+
+
+Average F1 score across 5 runs: 0.682951043194993
