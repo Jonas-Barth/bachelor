@@ -1,0 +1,62 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic. Steamship.
+Alternate Prompt (prompt engineering): random
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+42  22
+7  29
+Precision: 0.65625
+Recall: 0.8571428571428571
+F1-Score: 0.743362831858407
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Matrix:
+38  25
+11  26
+Precision: 0.6031746031746031
+Recall: 0.7755102040816326
+F1-Score: 0.6785714285714285
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Matrix:
+40  27
+9  24
+Precision: 0.5970149253731343
+Recall: 0.8163265306122449
+F1-Score: 0.689655172413793
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Matrix:
+41  23
+8  28
+Precision: 0.640625
+Recall: 0.8367346938775511
+F1-Score: 0.7256637168141593
+
+Errors (not parsed): 
+
+
+Results for run 5: 
+Matrix:
+40  22
+9  29
+Precision: 0.6451612903225806
+Recall: 0.8163265306122449
+F1-Score: 0.7207207207207208
+
+Errors (not parsed): 
+
+
+Average F1 score across 5 runs: 0.7115947740757018

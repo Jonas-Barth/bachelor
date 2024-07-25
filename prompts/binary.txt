@@ -2,3 +2,4 @@ default;You are an irony detector. Respond with '1' (for yes) or '0' (for no) de
 noDetector;Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
 yesNo;You are an irony detector. Respond with 'Yes' or 'No' depending on whether you think the following statements are ironic.
 isNotAre;You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statement is ironic.
+random;You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic. Steamship.
