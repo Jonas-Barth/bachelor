@@ -1,0 +1,119 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
+
+Alternate Prompt (prompt engineering): default
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+41  31
+8  20
+Precision: 0.5694444444444444
+Recall: 0.8367346938775511
+F1-Score: 0.6776859504132232
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Matrix:
+40  31
+9  20
+Precision: 0.5633802816901409
+Recall: 0.8163265306122449
+F1-Score: 0.6666666666666666
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Matrix:
+45  23
+4  28
+Precision: 0.6617647058823529
+Recall: 0.9183673469387755
+F1-Score: 0.7692307692307692
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Matrix:
+43  28
+6  22
+Precision: 0.6056338028169014
+Recall: 0.8775510204081632
+F1-Score: 0.7166666666666666
+
+Errors (not parsed): 
+1 (yes)
+
+
+Results for run 5: 
+Matrix:
+44  25
+5  26
+Precision: 0.6376811594202898
+Recall: 0.8979591836734694
+F1-Score: 0.7457627118644068
+
+Errors (not parsed): 
+
+
+Results for run 6: 
+Matrix:
+42  23
+7  28
+Precision: 0.6461538461538462
+Recall: 0.8571428571428571
+F1-Score: 0.736842105263158
+
+Errors (not parsed): 
+
+
+Results for run 7: 
+Matrix:
+43  28
+6  23
+Precision: 0.6056338028169014
+Recall: 0.8775510204081632
+F1-Score: 0.7166666666666666
+
+Errors (not parsed): 
+
+
+Results for run 8: 
+Matrix:
+43  28
+6  23
+Precision: 0.6056338028169014
+Recall: 0.8775510204081632
+F1-Score: 0.7166666666666666
+
+Errors (not parsed): 
+
+
+Results for run 9: 
+Matrix:
+44  28
+5  23
+Precision: 0.6111111111111112
+Recall: 0.8979591836734694
+F1-Score: 0.7272727272727272
+
+Errors (not parsed): 
+
+
+Results for run 10: 
+Matrix:
+45  34
+4  17
+Precision: 0.569620253164557
+Recall: 0.9183673469387755
+F1-Score: 0.7031250000000001
+
+Errors (not parsed): 
+
+
+Average F1 score across 10 runs: 0.7176585930710953

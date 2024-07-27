@@ -1,0 +1,126 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic. Steamship.
+Alternate Prompt (prompt engineering): random
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+35  25
+12  25
+Precision: 0.5833333333333334
+Recall: 0.7446808510638298
+F1-Score: 0.6542056074766355
+
+Errors (not parsed): 
+0 
+1 (yes)
+1
+
+This statement is ironic because the person is criticizing Tom Brady for being a system quarterback while also being a big fan of Peyton Manning, who also played in a highly successful system.
+
+
+Results for run 2: 
+Matrix:
+40  22
+9  29
+Precision: 0.6451612903225806
+Recall: 0.8163265306122449
+F1-Score: 0.7207207207207208
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Matrix:
+41  23
+8  28
+Precision: 0.640625
+Recall: 0.8367346938775511
+F1-Score: 0.7256637168141593
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Matrix:
+42  21
+7  30
+Precision: 0.6666666666666666
+Recall: 0.8571428571428571
+F1-Score: 0.75
+
+Errors (not parsed): 
+
+
+Results for run 5: 
+Matrix:
+42  24
+7  26
+Precision: 0.6363636363636364
+Recall: 0.8571428571428571
+F1-Score: 0.7304347826086957
+
+Errors (not parsed): 
+0
+
+
+
+
+Results for run 6: 
+Matrix:
+38  21
+11  30
+Precision: 0.6440677966101694
+Recall: 0.7755102040816326
+F1-Score: 0.7037037037037036
+
+Errors (not parsed): 
+
+
+Results for run 7: 
+Matrix:
+42  27
+7  24
+Precision: 0.6086956521739131
+Recall: 0.8571428571428571
+F1-Score: 0.7118644067796609
+
+Errors (not parsed): 
+
+
+Results for run 8: 
+Matrix:
+39  27
+10  24
+Precision: 0.5909090909090909
+Recall: 0.7959183673469388
+F1-Score: 0.6782608695652174
+
+Errors (not parsed): 
+
+
+Results for run 9: 
+Matrix:
+42  23
+6  28
+Precision: 0.6461538461538462
+Recall: 0.875
+F1-Score: 0.7433628318584071
+
+Errors (not parsed): 
+1 (yes)
+
+
+Results for run 10: 
+Matrix:
+42  23
+7  28
+Precision: 0.6461538461538462
+Recall: 0.8571428571428571
+F1-Score: 0.736842105263158
+
+Errors (not parsed): 
+
+
+Average F1 score across 10 runs: 0.7155058744790358
