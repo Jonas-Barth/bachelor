@@ -1,0 +1,1218 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.Alternate Prompt (prompt engineering): No
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+46  36
+3  15
+Accuracy: 0.61
+Precision: 0.5609756097560976
+Recall: 0.9387755102040817
+F1-Score: 0.7022900763358778
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Matrix:
+43  34
+6  17
+Accuracy: 0.6
+Precision: 0.5584415584415584
+Recall: 0.8775510204081632
+F1-Score: 0.6825396825396826
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Matrix:
+46  31
+3  20
+Accuracy: 0.66
+Precision: 0.5974025974025974
+Recall: 0.9387755102040817
+F1-Score: 0.73015873015873
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Matrix:
+44  33
+5  18
+Accuracy: 0.62
+Precision: 0.5714285714285714
+Recall: 0.8979591836734694
+F1-Score: 0.6984126984126985
+
+Errors (not parsed): 
+
+
+Results for run 5: 
+Matrix:
+43  39
+6  12
+Accuracy: 0.55
+Precision: 0.524390243902439
+Recall: 0.8775510204081632
+F1-Score: 0.6564885496183207
+
+Errors (not parsed): 
+
+
+Results for run 6: 
+Matrix:
+46  36
+3  15
+Accuracy: 0.61
+Precision: 0.5609756097560976
+Recall: 0.9387755102040817
+F1-Score: 0.7022900763358778
+
+Errors (not parsed): 
+
+
+Results for run 7: 
+Matrix:
+44  35
+5  16
+Accuracy: 0.6
+Precision: 0.5569620253164557
+Recall: 0.8979591836734694
+F1-Score: 0.6875
+
+Errors (not parsed): 
+
+
+Results for run 8: 
+Matrix:
+44  32
+5  19
+Accuracy: 0.63
+Precision: 0.5789473684210527
+Recall: 0.8979591836734694
+F1-Score: 0.704
+
+Errors (not parsed): 
+
+
+Results for run 9: 
+Matrix:
+43  35
+6  16
+Accuracy: 0.59
+Precision: 0.5512820512820513
+Recall: 0.8775510204081632
+F1-Score: 0.6771653543307087
+
+Errors (not parsed): 
+
+
+Results for run 10: 
+Matrix:
+42  35
+7  16
+Accuracy: 0.58
+Precision: 0.5454545454545454
+Recall: 0.8571428571428571
+F1-Score: 0.6666666666666665
+
+Errors (not parsed): 
+
+
+Results for run 11: 
+Matrix:
+39  34
+10  17
+Accuracy: 0.56
+Precision: 0.5342465753424658
+Recall: 0.7959183673469388
+F1-Score: 0.6393442622950819
+
+Errors (not parsed): 
+
+
+Results for run 12: 
+Matrix:
+46  35
+3  16
+Accuracy: 0.62
+Precision: 0.5679012345679012
+Recall: 0.9387755102040817
+F1-Score: 0.7076923076923076
+
+Errors (not parsed): 
+
+
+Results for run 13: 
+Matrix:
+44  33
+5  18
+Accuracy: 0.62
+Precision: 0.5714285714285714
+Recall: 0.8979591836734694
+F1-Score: 0.6984126984126985
+
+Errors (not parsed): 
+
+
+Results for run 14: 
+Matrix:
+43  33
+6  18
+Accuracy: 0.61
+Precision: 0.5657894736842105
+Recall: 0.8775510204081632
+F1-Score: 0.6880000000000001
+
+Errors (not parsed): 
+
+
+Results for run 15: 
+Matrix:
+40  32
+9  19
+Accuracy: 0.59
+Precision: 0.5555555555555556
+Recall: 0.8163265306122449
+F1-Score: 0.6611570247933884
+
+Errors (not parsed): 
+
+
+Results for run 16: 
+Matrix:
+46  36
+3  15
+Accuracy: 0.61
+Precision: 0.5609756097560976
+Recall: 0.9387755102040817
+F1-Score: 0.7022900763358778
+
+Errors (not parsed): 
+
+
+Results for run 17: 
+Matrix:
+44  35
+5  16
+Accuracy: 0.6
+Precision: 0.5569620253164557
+Recall: 0.8979591836734694
+F1-Score: 0.6875
+
+Errors (not parsed): 
+
+
+Results for run 18: 
+Matrix:
+44  35
+4  16
+Accuracy: 0.6060606060606061
+Precision: 0.5569620253164557
+Recall: 0.9166666666666666
+F1-Score: 0.6929133858267716
+
+Errors (not parsed): 
+1 
+
+
+Results for run 19: 
+Matrix:
+45  36
+4  15
+Accuracy: 0.6
+Precision: 0.5555555555555556
+Recall: 0.9183673469387755
+F1-Score: 0.6923076923076923
+
+Errors (not parsed): 
+
+
+Results for run 20: 
+Matrix:
+40  31
+8  20
+Accuracy: 0.6060606060606061
+Precision: 0.5633802816901409
+Recall: 0.8333333333333334
+F1-Score: 0.6722689075630253
+
+Errors (not parsed): 
+1 
+
+
+Results for run 21: 
+Matrix:
+47  34
+2  17
+Accuracy: 0.64
+Precision: 0.5802469135802469
+Recall: 0.9591836734693877
+F1-Score: 0.7230769230769232
+
+Errors (not parsed): 
+
+
+Results for run 22: 
+Matrix:
+44  35
+5  16
+Accuracy: 0.6
+Precision: 0.5569620253164557
+Recall: 0.8979591836734694
+F1-Score: 0.6875
+
+Errors (not parsed): 
+
+
+Results for run 23: 
+Matrix:
+44  33
+5  17
+Accuracy: 0.6161616161616161
+Precision: 0.5714285714285714
+Recall: 0.8979591836734694
+F1-Score: 0.6984126984126985
+
+Errors (not parsed): 
+1 (yes)
+
+
+Results for run 24: 
+Matrix:
+41  34
+8  17
+Accuracy: 0.58
+Precision: 0.5466666666666666
+Recall: 0.8367346938775511
+F1-Score: 0.6612903225806451
+
+Errors (not parsed): 
+
+
+Results for run 25: 
+Matrix:
+44  31
+5  20
+Accuracy: 0.64
+Precision: 0.5866666666666667
+Recall: 0.8979591836734694
+F1-Score: 0.7096774193548387
+
+Errors (not parsed): 
+
+
+Results for run 26: 
+Matrix:
+45  32
+4  19
+Accuracy: 0.64
+Precision: 0.5844155844155844
+Recall: 0.9183673469387755
+F1-Score: 0.7142857142857143
+
+Errors (not parsed): 
+
+
+Results for run 27: 
+Matrix:
+43  34
+6  17
+Accuracy: 0.6
+Precision: 0.5584415584415584
+Recall: 0.8775510204081632
+F1-Score: 0.6825396825396826
+
+Errors (not parsed): 
+
+
+Results for run 28: 
+Matrix:
+43  33
+6  18
+Accuracy: 0.61
+Precision: 0.5657894736842105
+Recall: 0.8775510204081632
+F1-Score: 0.6880000000000001
+
+Errors (not parsed): 
+
+
+Results for run 29: 
+Matrix:
+47  33
+2  18
+Accuracy: 0.65
+Precision: 0.5875
+Recall: 0.9591836734693877
+F1-Score: 0.7286821705426357
+
+Errors (not parsed): 
+
+
+Results for run 30: 
+Matrix:
+45  32
+4  18
+Accuracy: 0.6363636363636364
+Precision: 0.5844155844155844
+Recall: 0.9183673469387755
+F1-Score: 0.7142857142857143
+
+Errors (not parsed): 
+1 
+
+
+Results for run 31: 
+Matrix:
+44  38
+5  13
+Accuracy: 0.57
+Precision: 0.5365853658536586
+Recall: 0.8979591836734694
+F1-Score: 0.6717557251908397
+
+Errors (not parsed): 
+
+
+Results for run 32: 
+Matrix:
+45  36
+4  15
+Accuracy: 0.6
+Precision: 0.5555555555555556
+Recall: 0.9183673469387755
+F1-Score: 0.6923076923076923
+
+Errors (not parsed): 
+
+
+Results for run 33: 
+Matrix:
+42  35
+7  16
+Accuracy: 0.58
+Precision: 0.5454545454545454
+Recall: 0.8571428571428571
+F1-Score: 0.6666666666666665
+
+Errors (not parsed): 
+
+
+Results for run 34: 
+Matrix:
+46  37
+3  14
+Accuracy: 0.6
+Precision: 0.5542168674698795
+Recall: 0.9387755102040817
+F1-Score: 0.6969696969696971
+
+Errors (not parsed): 
+
+
+Results for run 35: 
+Matrix:
+45  33
+4  17
+Accuracy: 0.6262626262626263
+Precision: 0.5769230769230769
+Recall: 0.9183673469387755
+F1-Score: 0.7086614173228346
+
+Errors (not parsed): 
+1 (yes)
+
+
+Results for run 36: 
+Matrix:
+45  38
+4  13
+Accuracy: 0.58
+Precision: 0.5421686746987951
+Recall: 0.9183673469387755
+F1-Score: 0.6818181818181818
+
+Errors (not parsed): 
+
+
+Results for run 37: 
+Matrix:
+43  34
+6  17
+Accuracy: 0.6
+Precision: 0.5584415584415584
+Recall: 0.8775510204081632
+F1-Score: 0.6825396825396826
+
+Errors (not parsed): 
+
+
+Results for run 38: 
+Matrix:
+45  34
+4  17
+Accuracy: 0.62
+Precision: 0.569620253164557
+Recall: 0.9183673469387755
+F1-Score: 0.7031250000000001
+
+Errors (not parsed): 
+
+
+Results for run 39: 
+Matrix:
+44  38
+5  13
+Accuracy: 0.57
+Precision: 0.5365853658536586
+Recall: 0.8979591836734694
+F1-Score: 0.6717557251908397
+
+Errors (not parsed): 
+
+
+Results for run 40: 
+Matrix:
+43  36
+6  15
+Accuracy: 0.58
+Precision: 0.5443037974683544
+Recall: 0.8775510204081632
+F1-Score: 0.6718749999999999
+
+Errors (not parsed): 
+
+
+Results for run 41: 
+Matrix:
+47  35
+2  16
+Accuracy: 0.63
+Precision: 0.573170731707317
+Recall: 0.9591836734693877
+F1-Score: 0.7175572519083968
+
+Errors (not parsed): 
+
+
+Results for run 42: 
+Matrix:
+46  31
+3  20
+Accuracy: 0.66
+Precision: 0.5974025974025974
+Recall: 0.9387755102040817
+F1-Score: 0.73015873015873
+
+Errors (not parsed): 
+
+
+Results for run 43: 
+Matrix:
+43  34
+6  17
+Accuracy: 0.6
+Precision: 0.5584415584415584
+Recall: 0.8775510204081632
+F1-Score: 0.6825396825396826
+
+Errors (not parsed): 
+
+
+Results for run 44: 
+Matrix:
+45  35
+4  16
+Accuracy: 0.61
+Precision: 0.5625
+Recall: 0.9183673469387755
+F1-Score: 0.6976744186046512
+
+Errors (not parsed): 
+
+
+Results for run 45: 
+Matrix:
+42  35
+7  16
+Accuracy: 0.58
+Precision: 0.5454545454545454
+Recall: 0.8571428571428571
+F1-Score: 0.6666666666666665
+
+Errors (not parsed): 
+
+
+Results for run 46: 
+Matrix:
+45  36
+4  15
+Accuracy: 0.6
+Precision: 0.5555555555555556
+Recall: 0.9183673469387755
+F1-Score: 0.6923076923076923
+
+Errors (not parsed): 
+
+
+Results for run 47: 
+Matrix:
+47  33
+2  18
+Accuracy: 0.65
+Precision: 0.5875
+Recall: 0.9591836734693877
+F1-Score: 0.7286821705426357
+
+Errors (not parsed): 
+
+
+Results for run 48: 
+Matrix:
+44  36
+5  15
+Accuracy: 0.59
+Precision: 0.55
+Recall: 0.8979591836734694
+F1-Score: 0.682170542635659
+
+Errors (not parsed): 
+
+
+Results for run 49: 
+Matrix:
+44  31
+5  20
+Accuracy: 0.64
+Precision: 0.5866666666666667
+Recall: 0.8979591836734694
+F1-Score: 0.7096774193548387
+
+Errors (not parsed): 
+
+
+Results for run 50: 
+Matrix:
+45  34
+4  17
+Accuracy: 0.62
+Precision: 0.569620253164557
+Recall: 0.9183673469387755
+F1-Score: 0.7031250000000001
+
+Errors (not parsed): 
+
+
+Results for run 51: 
+Matrix:
+43  34
+6  17
+Accuracy: 0.6
+Precision: 0.5584415584415584
+Recall: 0.8775510204081632
+F1-Score: 0.6825396825396826
+
+Errors (not parsed): 
+
+
+Results for run 52: 
+Matrix:
+42  32
+7  19
+Accuracy: 0.61
+Precision: 0.5675675675675675
+Recall: 0.8571428571428571
+F1-Score: 0.6829268292682926
+
+Errors (not parsed): 
+
+
+Results for run 53: 
+Matrix:
+45  32
+4  19
+Accuracy: 0.64
+Precision: 0.5844155844155844
+Recall: 0.9183673469387755
+F1-Score: 0.7142857142857143
+
+Errors (not parsed): 
+
+
+Results for run 54: 
+Matrix:
+46  35
+3  16
+Accuracy: 0.62
+Precision: 0.5679012345679012
+Recall: 0.9387755102040817
+F1-Score: 0.7076923076923076
+
+Errors (not parsed): 
+
+
+Results for run 55: 
+Matrix:
+45  36
+4  15
+Accuracy: 0.6
+Precision: 0.5555555555555556
+Recall: 0.9183673469387755
+F1-Score: 0.6923076923076923
+
+Errors (not parsed): 
+
+
+Results for run 56: 
+Matrix:
+43  34
+6  17
+Accuracy: 0.6
+Precision: 0.5584415584415584
+Recall: 0.8775510204081632
+F1-Score: 0.6825396825396826
+
+Errors (not parsed): 
+
+
+Results for run 57: 
+Matrix:
+44  33
+5  18
+Accuracy: 0.62
+Precision: 0.5714285714285714
+Recall: 0.8979591836734694
+F1-Score: 0.6984126984126985
+
+Errors (not parsed): 
+
+
+Results for run 58: 
+Matrix:
+40  35
+9  16
+Accuracy: 0.56
+Precision: 0.5333333333333333
+Recall: 0.8163265306122449
+F1-Score: 0.6451612903225806
+
+Errors (not parsed): 
+
+
+Results for run 59: 
+Matrix:
+42  35
+7  16
+Accuracy: 0.58
+Precision: 0.5454545454545454
+Recall: 0.8571428571428571
+F1-Score: 0.6666666666666665
+
+Errors (not parsed): 
+
+
+Results for run 60: 
+Matrix:
+47  34
+2  17
+Accuracy: 0.64
+Precision: 0.5802469135802469
+Recall: 0.9591836734693877
+F1-Score: 0.7230769230769232
+
+Errors (not parsed): 
+
+
+Results for run 61: 
+Matrix:
+44  38
+5  12
+Accuracy: 0.5656565656565656
+Precision: 0.5365853658536586
+Recall: 0.8979591836734694
+F1-Score: 0.6717557251908397
+
+Errors (not parsed): 
+1 (yes)
+
+
+Results for run 62: 
+Matrix:
+41  37
+8  14
+Accuracy: 0.55
+Precision: 0.5256410256410257
+Recall: 0.8367346938775511
+F1-Score: 0.6456692913385826
+
+Errors (not parsed): 
+
+
+Results for run 63: 
+Matrix:
+45  37
+4  13
+Accuracy: 0.5858585858585859
+Precision: 0.5487804878048781
+Recall: 0.9183673469387755
+F1-Score: 0.6870229007633588
+
+Errors (not parsed): 
+1 
+
+
+Results for run 64: 
+Matrix:
+44  37
+5  14
+Accuracy: 0.58
+Precision: 0.5432098765432098
+Recall: 0.8979591836734694
+F1-Score: 0.676923076923077
+
+Errors (not parsed): 
+
+
+Results for run 65: 
+Matrix:
+44  36
+5  15
+Accuracy: 0.59
+Precision: 0.55
+Recall: 0.8979591836734694
+F1-Score: 0.682170542635659
+
+Errors (not parsed): 
+
+
+Results for run 66: 
+Matrix:
+46  38
+3  13
+Accuracy: 0.59
+Precision: 0.5476190476190477
+Recall: 0.9387755102040817
+F1-Score: 0.6917293233082707
+
+Errors (not parsed): 
+
+
+Results for run 67: 
+Matrix:
+45  30
+4  21
+Accuracy: 0.66
+Precision: 0.6
+Recall: 0.9183673469387755
+F1-Score: 0.7258064516129031
+
+Errors (not parsed): 
+
+
+Results for run 68: 
+Matrix:
+45  34
+3  17
+Accuracy: 0.6262626262626263
+Precision: 0.569620253164557
+Recall: 0.9375
+F1-Score: 0.7086614173228347
+
+Errors (not parsed): 
+1 (yes)
+
+
+Results for run 69: 
+Matrix:
+44  37
+5  14
+Accuracy: 0.58
+Precision: 0.5432098765432098
+Recall: 0.8979591836734694
+F1-Score: 0.676923076923077
+
+Errors (not parsed): 
+
+
+Results for run 70: 
+Matrix:
+45  33
+4  18
+Accuracy: 0.63
+Precision: 0.5769230769230769
+Recall: 0.9183673469387755
+F1-Score: 0.7086614173228346
+
+Errors (not parsed): 
+
+
+Results for run 71: 
+Matrix:
+44  34
+5  17
+Accuracy: 0.61
+Precision: 0.5641025641025641
+Recall: 0.8979591836734694
+F1-Score: 0.6929133858267718
+
+Errors (not parsed): 
+
+
+Results for run 72: 
+Matrix:
+42  34
+7  17
+Accuracy: 0.59
+Precision: 0.5526315789473685
+Recall: 0.8571428571428571
+F1-Score: 0.672
+
+Errors (not parsed): 
+
+
+Results for run 73: 
+Matrix:
+45  34
+4  17
+Accuracy: 0.62
+Precision: 0.569620253164557
+Recall: 0.9183673469387755
+F1-Score: 0.7031250000000001
+
+Errors (not parsed): 
+
+
+Results for run 74: 
+Matrix:
+45  36
+4  15
+Accuracy: 0.6
+Precision: 0.5555555555555556
+Recall: 0.9183673469387755
+F1-Score: 0.6923076923076923
+
+Errors (not parsed): 
+
+
+Results for run 75: 
+Matrix:
+44  34
+5  17
+Accuracy: 0.61
+Precision: 0.5641025641025641
+Recall: 0.8979591836734694
+F1-Score: 0.6929133858267718
+
+Errors (not parsed): 
+
+
+Results for run 76: 
+Matrix:
+43  36
+6  15
+Accuracy: 0.58
+Precision: 0.5443037974683544
+Recall: 0.8775510204081632
+F1-Score: 0.6718749999999999
+
+Errors (not parsed): 
+
+
+Results for run 77: 
+Matrix:
+41  31
+8  20
+Accuracy: 0.61
+Precision: 0.5694444444444444
+Recall: 0.8367346938775511
+F1-Score: 0.6776859504132232
+
+Errors (not parsed): 
+
+
+Results for run 78: 
+Matrix:
+45  33
+4  18
+Accuracy: 0.63
+Precision: 0.5769230769230769
+Recall: 0.9183673469387755
+F1-Score: 0.7086614173228346
+
+Errors (not parsed): 
+
+
+Results for run 79: 
+Matrix:
+45  33
+4  18
+Accuracy: 0.63
+Precision: 0.5769230769230769
+Recall: 0.9183673469387755
+F1-Score: 0.7086614173228346
+
+Errors (not parsed): 
+
+
+Results for run 80: 
+Matrix:
+45  33
+4  18
+Accuracy: 0.63
+Precision: 0.5769230769230769
+Recall: 0.9183673469387755
+F1-Score: 0.7086614173228346
+
+Errors (not parsed): 
+
+
+Results for run 81: 
+Matrix:
+44  32
+5  19
+Accuracy: 0.63
+Precision: 0.5789473684210527
+Recall: 0.8979591836734694
+F1-Score: 0.704
+
+Errors (not parsed): 
+
+
+Results for run 82: 
+Matrix:
+45  29
+4  22
+Accuracy: 0.67
+Precision: 0.6081081081081081
+Recall: 0.9183673469387755
+F1-Score: 0.7317073170731707
+
+Errors (not parsed): 
+
+
+Results for run 83: 
+Matrix:
+45  37
+4  14
+Accuracy: 0.59
+Precision: 0.5487804878048781
+Recall: 0.9183673469387755
+F1-Score: 0.6870229007633588
+
+Errors (not parsed): 
+
+
+Results for run 84: 
+Matrix:
+46  31
+3  20
+Accuracy: 0.66
+Precision: 0.5974025974025974
+Recall: 0.9387755102040817
+F1-Score: 0.73015873015873
+
+Errors (not parsed): 
+
+
+Results for run 85: 
+Matrix:
+47  34
+2  17
+Accuracy: 0.64
+Precision: 0.5802469135802469
+Recall: 0.9591836734693877
+F1-Score: 0.7230769230769232
+
+Errors (not parsed): 
+
+
+Results for run 86: 
+Matrix:
+43  36
+6  15
+Accuracy: 0.58
+Precision: 0.5443037974683544
+Recall: 0.8775510204081632
+F1-Score: 0.6718749999999999
+
+Errors (not parsed): 
+
+
+Results for run 87: 
+Matrix:
+46  37
+3  14
+Accuracy: 0.6
+Precision: 0.5542168674698795
+Recall: 0.9387755102040817
+F1-Score: 0.6969696969696971
+
+Errors (not parsed): 
+
+
+Results for run 88: 
+Matrix:
+45  33
+4  18
+Accuracy: 0.63
+Precision: 0.5769230769230769
+Recall: 0.9183673469387755
+F1-Score: 0.7086614173228346
+
+Errors (not parsed): 
+
+
+Results for run 89: 
+Matrix:
+43  35
+6  16
+Accuracy: 0.59
+Precision: 0.5512820512820513
+Recall: 0.8775510204081632
+F1-Score: 0.6771653543307087
+
+Errors (not parsed): 
+
+
+Results for run 90: 
+Matrix:
+42  33
+7  18
+Accuracy: 0.6
+Precision: 0.56
+Recall: 0.8571428571428571
+F1-Score: 0.6774193548387096
+
+Errors (not parsed): 
+
+
+Results for run 91: 
+Matrix:
+48  34
+1  17
+Accuracy: 0.65
+Precision: 0.5853658536585366
+Recall: 0.9795918367346939
+F1-Score: 0.732824427480916
+
+Errors (not parsed): 
+
+
+Results for run 92: 
+Matrix:
+42  34
+7  17
+Accuracy: 0.59
+Precision: 0.5526315789473685
+Recall: 0.8571428571428571
+F1-Score: 0.672
+
+Errors (not parsed): 
+
+
+Results for run 93: 
+Matrix:
+45  31
+4  20
+Accuracy: 0.65
+Precision: 0.5921052631578947
+Recall: 0.9183673469387755
+F1-Score: 0.72
+
+Errors (not parsed): 
+
+
+Results for run 94: 
+Matrix:
+43  36
+6  15
+Accuracy: 0.58
+Precision: 0.5443037974683544
+Recall: 0.8775510204081632
+F1-Score: 0.6718749999999999
+
+Errors (not parsed): 
+
+
+Results for run 95: 
+Matrix:
+47  33
+2  18
+Accuracy: 0.65
+Precision: 0.5875
+Recall: 0.9591836734693877
+F1-Score: 0.7286821705426357
+
+Errors (not parsed): 
+
+
+Results for run 96: 
+Matrix:
+43  34
+6  17
+Accuracy: 0.6
+Precision: 0.5584415584415584
+Recall: 0.8775510204081632
+F1-Score: 0.6825396825396826
+
+Errors (not parsed): 
+
+
+Results for run 97: 
+Matrix:
+45  34
+4  17
+Accuracy: 0.62
+Precision: 0.569620253164557
+Recall: 0.9183673469387755
+F1-Score: 0.7031250000000001
+
+Errors (not parsed): 
+
+
+Results for run 98: 
+Matrix:
+45  41
+4  10
+Accuracy: 0.55
+Precision: 0.5232558139534884
+Recall: 0.9183673469387755
+F1-Score: 0.6666666666666667
+
+Errors (not parsed): 
+
+
+Results for run 99: 
+Matrix:
+43  32
+5  19
+Accuracy: 0.6262626262626263
+Precision: 0.5733333333333334
+Recall: 0.8958333333333334
+F1-Score: 0.6991869918699187
+
+Errors (not parsed): 
+1 
+
+
+Results for run 100: 
+Matrix:
+45  33
+4  18
+Accuracy: 0.63
+Precision: 0.5769230769230769
+Recall: 0.9183673469387755
+F1-Score: 0.7086614173228346
+
+Errors (not parsed): 
+
+
+Average Accuracy score across 100 runs: 0.608649494949495
+Average Precision score across 100 runs: 0.5630231432220902
+Average Recall score across 100 runs: 0.9019557823129253
+Average F1 score across 100 runs: 0.693085386251831

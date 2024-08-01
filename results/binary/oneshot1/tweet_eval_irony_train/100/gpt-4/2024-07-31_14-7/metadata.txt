@@ -1,0 +1,68 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic. An example of an ironic statement: "Always fun when buses don't turn up! It's my favorite waiting outside in the freezing cold for them for like half an hour"
+
+Alternate Prompt (prompt engineering): oneshot1
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+34  6
+15  45
+Accuracy: 0.79
+Precision: 0.85
+Recall: 0.6938775510204082
+F1-Score: 0.7640449438202247
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Matrix:
+33  6
+16  45
+Accuracy: 0.78
+Precision: 0.8461538461538461
+Recall: 0.673469387755102
+F1-Score: 0.75
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Matrix:
+33  8
+16  43
+Accuracy: 0.76
+Precision: 0.8048780487804879
+Recall: 0.673469387755102
+F1-Score: 0.7333333333333334
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Matrix:
+33  6
+16  45
+Accuracy: 0.78
+Precision: 0.8461538461538461
+Recall: 0.673469387755102
+F1-Score: 0.75
+
+Errors (not parsed): 
+
+
+Results for run 5: 
+Matrix:
+34  7
+15  44
+Accuracy: 0.78
+Precision: 0.8292682926829268
+Recall: 0.6938775510204082
+F1-Score: 0.7555555555555555
+
+Errors (not parsed): 
+
+
+Average F1 score across 5 runs: 0.7505867665418228

@@ -1,5 +1,11 @@
-default;You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
-noDetector;Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
-yesNo;You are an irony detector. Respond with 'Yes' or 'No' depending on whether you think the following statements are ironic.
-isNotAre;You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statement is ironic.
-random;You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic. Steamship.
+default;You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.;
+noDetector;Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.;
+yesNo;You are an irony detector. Respond with 'Yes' or 'No' depending on whether you think the following statements are ironic.;
+isNotAre;You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statement is ironic.;
+random;You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic. Steamship.;
+randomBinary;You are an irony detector. Respond with 'stereotype' (for yes) or 'tungsten' (for no) depending on whether you think the following statements are ironic.;
+oneshot0;You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic. An example of a non-ironic satement: "@user No! I rarely drink at all. Got a stomach bug :-(";
+oneshot1;You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic. An example of an ironic statement: "Always fun when buses don't turn up! It's my favorite waiting outside in the freezing cold for them for like half an hour";
+twoshot00;Gah! Desperately trying to bust this cold!,0;
+twoshot01;default text;
+twoshot11;default text;

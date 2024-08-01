@@ -1,0 +1,68 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond with 1(for yes) or '0' (for no) depending on whether you think the following statements are ironic. An example of a non-ironic satement: "@user No! I rarely drink at all. Got a stomach bug :-("
+
+Alternate Prompt (prompt engineering): oneshot0
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Matrix:
+36  7
+13  44
+Accuracy: 0.8
+Precision: 0.8372093023255814
+Recall: 0.7346938775510204
+F1-Score: 0.782608695652174
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Matrix:
+36  6
+13  45
+Accuracy: 0.81
+Precision: 0.8571428571428571
+Recall: 0.7346938775510204
+F1-Score: 0.7912087912087913
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Matrix:
+36  6
+13  45
+Accuracy: 0.81
+Precision: 0.8571428571428571
+Recall: 0.7346938775510204
+F1-Score: 0.7912087912087913
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Matrix:
+36  9
+13  42
+Accuracy: 0.78
+Precision: 0.8
+Recall: 0.7346938775510204
+F1-Score: 0.7659574468085106
+
+Errors (not parsed): 
+
+
+Results for run 5: 
+Matrix:
+36  6
+13  45
+Accuracy: 0.81
+Precision: 0.8571428571428571
+Recall: 0.7346938775510204
+F1-Score: 0.7912087912087913
+
+Errors (not parsed): 
+
+
+Average F1 score across 5 runs: 0.7844385032174117
