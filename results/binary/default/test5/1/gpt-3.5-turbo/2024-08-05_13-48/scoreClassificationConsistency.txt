@@ -1,0 +1,6 @@
+Consistently correct/wrong using threshold 0.7: 1/0 - 100.0% of 1 rows are consistent.
+Absolutely correct/wrong: 0/0 - 0.0/0.0
+0 rows are contested.
+Consistently correct irony/non-irony: 0/1
+Consistently incorrect irony/non-irony: 0/0
+Row no. 1 (non-irony): Correct - 48 Wrong - 2
