@@ -1,8 +1,10 @@
 Consistently correct/wrong using threshold 0.7: 50/29 - 79.0% of 100 rows are consistent.
-Absolutely correct/wrong: 0/6 - 0.0/0.06
+Absolutely correct irony/non-irony: 0/0
+Absolutely incorrect irony/non-irony: 0/6
 21 rows are contested.
 Consistently correct irony/non-irony: 44/6
 Consistently incorrect irony/non-irony: 2/27
+Contested irony/non-irony: 3/18
 Row no. 1 (irony):     Correct - 94 Wrong - 6
 Row no. 2 (non-irony): Correct - 95 Wrong - 5
 Row no. 3 (irony):     Correct - 91 Wrong - 9
