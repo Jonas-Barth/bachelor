@@ -1,0 +1,138 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.Alternate Prompt (prompt engineering): No
+Dataset: datasets\fixedsetreadin.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+13  16
+9  61
+Accuracy: 0.7474747474747475
+Precision: 0.5909090909090909
+Recall: 0.4482758620689655
+F1-Score: 0.5098039215686274
+
+Errors (not parsed): 
+I'm sorry, but your request can't be processed right now. There's no statement provided.
+
+
+Results for run 2: 
+Confusion Matrix:
+13  16
+9  61
+Accuracy: 0.7474747474747475
+Precision: 0.5909090909090909
+Recall: 0.4482758620689655
+F1-Score: 0.5098039215686274
+
+Errors (not parsed): 
+As an AI model developed by OpenAI, I can't respond to deleted or missing inputs. Assuming this is the case, I'll provide a neutral response: '0'. Please message again with the content.
+
+
+Results for run 3: 
+Confusion Matrix:
+14  15
+11  59
+Accuracy: 0.7373737373737373
+Precision: 0.56
+Recall: 0.4827586206896552
+F1-Score: 0.5185185185185185
+
+Errors (not parsed): 
+This prompt does not contain any data that could be analyzed for irony. Thus, a definitive answer cannot be provided.
+
+
+Results for run 4: 
+Confusion Matrix:
+12  17
+10  60
+Accuracy: 0.7272727272727273
+Precision: 0.5454545454545454
+Recall: 0.41379310344827586
+F1-Score: 0.47058823529411764
+
+Errors (not parsed): 
+You have not provided any statement for evaluation.
+
+
+Results for run 5: 
+Confusion Matrix:
+11  18
+10  60
+Accuracy: 0.7171717171717171
+Precision: 0.5238095238095238
+Recall: 0.3793103448275862
+F1-Score: 0.44
+
+Errors (not parsed): 
+Apologies, but there's no statement provided for me to evaluate.
+
+
+Results for run 6: 
+Confusion Matrix:
+13  16
+9  61
+Accuracy: 0.7474747474747475
+Precision: 0.5909090909090909
+Recall: 0.4482758620689655
+F1-Score: 0.5098039215686274
+
+Errors (not parsed): 
+[deleted]
+
+
+Results for run 7: 
+Confusion Matrix:
+12  17
+12  58
+Accuracy: 0.7070707070707071
+Precision: 0.5
+Recall: 0.41379310344827586
+F1-Score: 0.4528301886792453
+
+Errors (not parsed): 
+Your input seems to be empty or deleted. Please provide a statement to evaluate.
+
+
+Results for run 8: 
+Confusion Matrix:
+10  19
+9  62
+Accuracy: 0.72
+Precision: 0.5263157894736842
+Recall: 0.3448275862068966
+F1-Score: 0.4166666666666667
+
+Errors (not parsed): 
+
+
+Results for run 9: 
+Confusion Matrix:
+12  17
+8  62
+Accuracy: 0.7474747474747475
+Precision: 0.6
+Recall: 0.41379310344827586
+F1-Score: 0.4897959183673469
+
+Errors (not parsed): 
+As there is no statement provided, I'm not able to detect irony. Please provide a statement.
+
+
+Results for run 10: 
+Confusion Matrix:
+13  16
+9  61
+Accuracy: 0.7474747474747475
+Precision: 0.5909090909090909
+Recall: 0.4482758620689655
+F1-Score: 0.5098039215686274
+
+Errors (not parsed): 
+As an AI, I can't respond to a query or statement that is deleted or not provided. Please input a statement for consideration.
+
+
+Average Accuracy score across 10 runs: 0.7346262626262625
+Average Precision score across 10 runs: 0.5619216222374116
+Average Recall score across 10 runs: 0.4241379310344827
+Average F1 score across 10 runs: 0.48276152138004047

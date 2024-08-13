@@ -1,0 +1,142 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.Alternate Prompt (prompt engineering): No
+Dataset: datasets\fixedsetreadin.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+24  5
+61  8
+Accuracy: 0.32653061224489793
+Precision: 0.2823529411764706
+Recall: 0.8275862068965517
+F1-Score: 0.42105263157894735
+
+Errors (not parsed): 
+I'm sorry, but I cannot detect irony in a deleted statement.
+1, 1, 1, 1
+
+
+Results for run 2: 
+Confusion Matrix:
+22  7
+57  14
+Accuracy: 0.36
+Precision: 0.27848101265822783
+Recall: 0.7586206896551724
+F1-Score: 0.4074074074074074
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Confusion Matrix:
+23  6
+60  10
+Accuracy: 0.3333333333333333
+Precision: 0.27710843373493976
+Recall: 0.7931034482758621
+F1-Score: 0.41071428571428575
+
+Errors (not parsed): 
+1
+1
+0
+1
+
+
+Results for run 4: 
+Confusion Matrix:
+23  6
+59  11
+Accuracy: 0.3434343434343434
+Precision: 0.2804878048780488
+Recall: 0.7931034482758621
+F1-Score: 0.41441441441441446
+
+Errors (not parsed): 
+Ironic.
+
+
+Results for run 5: 
+Confusion Matrix:
+22  7
+59  12
+Accuracy: 0.34
+Precision: 0.2716049382716049
+Recall: 0.7586206896551724
+F1-Score: 0.39999999999999997
+
+Errors (not parsed): 
+
+
+Results for run 6: 
+Confusion Matrix:
+21  8
+58  13
+Accuracy: 0.34
+Precision: 0.26582278481012656
+Recall: 0.7241379310344828
+F1-Score: 0.38888888888888884
+
+Errors (not parsed): 
+
+
+Results for run 7: 
+Confusion Matrix:
+22  7
+60  11
+Accuracy: 0.33
+Precision: 0.2682926829268293
+Recall: 0.7586206896551724
+F1-Score: 0.3963963963963964
+
+Errors (not parsed): 
+
+
+Results for run 8: 
+Confusion Matrix:
+25  4
+55  14
+Accuracy: 0.3979591836734694
+Precision: 0.3125
+Recall: 0.8620689655172413
+F1-Score: 0.4587155963302752
+
+Errors (not parsed): 
+I see a fair amount of irony in the statement, particularly in the sections about the central banking system and business regulations. Would you agree?
+1
+0
+0
+1
+
+
+Results for run 9: 
+Confusion Matrix:
+21  8
+60  10
+Accuracy: 0.31313131313131315
+Precision: 0.25925925925925924
+Recall: 0.7241379310344828
+F1-Score: 0.38181818181818183
+
+Errors (not parsed): 
+Error: Statement not provided. Please provide a statement to analyze for irony.
+
+
+Results for run 10: 
+Confusion Matrix:
+23  6
+57  14
+Accuracy: 0.37
+Precision: 0.2875
+Recall: 0.7931034482758621
+F1-Score: 0.4220183486238532
+
+Errors (not parsed): 
+
+
+Average Accuracy score across 10 runs: 0.3454388785817358
+Average Precision score across 10 runs: 0.27834098577155075
+Average Recall score across 10 runs: 0.7793103448275863
+Average F1 score across 10 runs: 0.410142615117265

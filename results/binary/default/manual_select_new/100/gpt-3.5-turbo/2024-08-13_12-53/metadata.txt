@@ -1,0 +1,132 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.Alternate Prompt (prompt engineering): No
+Dataset: datasets\manual_select_new.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+44  6
+36  14
+Accuracy: 0.58
+Precision: 0.55
+Recall: 0.88
+F1-Score: 0.676923076923077
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Confusion Matrix:
+44  6
+35  15
+Accuracy: 0.59
+Precision: 0.5569620253164557
+Recall: 0.88
+F1-Score: 0.6821705426356589
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Confusion Matrix:
+42  8
+39  11
+Accuracy: 0.53
+Precision: 0.5185185185185185
+Recall: 0.84
+F1-Score: 0.6412213740458015
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Confusion Matrix:
+45  5
+38  12
+Accuracy: 0.57
+Precision: 0.5421686746987951
+Recall: 0.9
+F1-Score: 0.6766917293233082
+
+Errors (not parsed): 
+
+
+Results for run 5: 
+Confusion Matrix:
+45  5
+35  15
+Accuracy: 0.6
+Precision: 0.5625
+Recall: 0.9
+F1-Score: 0.6923076923076923
+
+Errors (not parsed): 
+
+
+Results for run 6: 
+Confusion Matrix:
+44  6
+33  17
+Accuracy: 0.61
+Precision: 0.5714285714285714
+Recall: 0.88
+F1-Score: 0.6929133858267715
+
+Errors (not parsed): 
+
+
+Results for run 7: 
+Confusion Matrix:
+46  4
+33  17
+Accuracy: 0.63
+Precision: 0.5822784810126582
+Recall: 0.92
+F1-Score: 0.7131782945736436
+
+Errors (not parsed): 
+
+
+Results for run 8: 
+Confusion Matrix:
+45  5
+36  14
+Accuracy: 0.59
+Precision: 0.5555555555555556
+Recall: 0.9
+F1-Score: 0.6870229007633587
+
+Errors (not parsed): 
+
+
+Results for run 9: 
+Confusion Matrix:
+44  6
+36  13
+Accuracy: 0.5757575757575758
+Precision: 0.55
+Recall: 0.88
+F1-Score: 0.676923076923077
+
+Errors (not parsed): 
+1  
+
+This statement is ironic because the user is expressing excitement for Whiteboard Fridays, implying that they enjoy watching informative videos on a whiteboard, but they are also tagging Moz, a company known for providing digital marketing resources and not specifically associated with whiteboard content.
+
+
+Results for run 10: 
+Confusion Matrix:
+45  5
+38  12
+Accuracy: 0.57
+Precision: 0.5421686746987951
+Recall: 0.9
+F1-Score: 0.6766917293233082
+
+Errors (not parsed): 
+
+
+Average Accuracy score across 10 runs: 0.5845757575757576
+Average Precision score across 10 runs: 0.553158050122935
+Average Recall score across 10 runs: 0.8880000000000001
+Average F1 score across 10 runs: 0.6816043802645698

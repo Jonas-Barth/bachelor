@@ -1,0 +1,129 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.Alternate Prompt (prompt engineering): No
+Dataset: datasets\manual_select_new.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+37  13
+3  47
+Accuracy: 0.84
+Precision: 0.925
+Recall: 0.74
+F1-Score: 0.8222222222222222
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Confusion Matrix:
+35  15
+4  46
+Accuracy: 0.81
+Precision: 0.8974358974358975
+Recall: 0.7
+F1-Score: 0.7865168539325842
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Confusion Matrix:
+37  13
+3  47
+Accuracy: 0.84
+Precision: 0.925
+Recall: 0.74
+F1-Score: 0.8222222222222222
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Confusion Matrix:
+35  15
+5  45
+Accuracy: 0.8
+Precision: 0.875
+Recall: 0.7
+F1-Score: 0.7777777777777777
+
+Errors (not parsed): 
+
+
+Results for run 5: 
+Confusion Matrix:
+38  12
+4  46
+Accuracy: 0.84
+Precision: 0.9047619047619048
+Recall: 0.76
+F1-Score: 0.8260869565217391
+
+Errors (not parsed): 
+
+
+Results for run 6: 
+Confusion Matrix:
+38  12
+4  46
+Accuracy: 0.84
+Precision: 0.9047619047619048
+Recall: 0.76
+F1-Score: 0.8260869565217391
+
+Errors (not parsed): 
+
+
+Results for run 7: 
+Confusion Matrix:
+37  13
+3  47
+Accuracy: 0.84
+Precision: 0.925
+Recall: 0.74
+F1-Score: 0.8222222222222222
+
+Errors (not parsed): 
+
+
+Results for run 8: 
+Confusion Matrix:
+39  11
+3  47
+Accuracy: 0.86
+Precision: 0.9285714285714286
+Recall: 0.78
+F1-Score: 0.8478260869565217
+
+Errors (not parsed): 
+
+
+Results for run 9: 
+Confusion Matrix:
+39  11
+3  47
+Accuracy: 0.86
+Precision: 0.9285714285714286
+Recall: 0.78
+F1-Score: 0.8478260869565217
+
+Errors (not parsed): 
+
+
+Results for run 10: 
+Confusion Matrix:
+38  12
+3  47
+Accuracy: 0.85
+Precision: 0.926829268292683
+Recall: 0.76
+F1-Score: 0.8351648351648352
+
+Errors (not parsed): 
+
+
+Average Accuracy score across 10 runs: 0.8380000000000001
+Average Precision score across 10 runs: 0.9140931832395248
+Average Recall score across 10 runs: 0.746
+Average F1 score across 10 runs: 0.8213952220498385
