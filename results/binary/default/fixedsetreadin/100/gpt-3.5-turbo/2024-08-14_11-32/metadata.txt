@@ -1,0 +1,148 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.Alternate Prompt (prompt engineering): No
+Dataset: datasets\fixedsetreadin.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+23  6
+58  13
+Accuracy: 0.36
+Precision: 0.2839506172839506
+Recall: 0.7931034482758621
+F1-Score: 0.4181818181818182
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Confusion Matrix:
+20  9
+58  13
+Accuracy: 0.33
+Precision: 0.2564102564102564
+Recall: 0.6896551724137931
+F1-Score: 0.37383177570093457
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Confusion Matrix:
+25  4
+56  14
+Accuracy: 0.3939393939393939
+Precision: 0.30864197530864196
+Recall: 0.8620689655172413
+F1-Score: 0.45454545454545453
+
+Errors (not parsed): 
+Ironic: 1
+
+
+Results for run 4: 
+Confusion Matrix:
+25  4
+58  13
+Accuracy: 0.38
+Precision: 0.30120481927710846
+Recall: 0.8620689655172413
+F1-Score: 0.44642857142857145
+
+Errors (not parsed): 
+
+
+Results for run 5: 
+Confusion Matrix:
+23  6
+52  19
+Accuracy: 0.42
+Precision: 0.30666666666666664
+Recall: 0.7931034482758621
+F1-Score: 0.4423076923076923
+
+Errors (not parsed): 
+
+
+Results for run 6: 
+Confusion Matrix:
+21  7
+56  15
+Accuracy: 0.36363636363636365
+Precision: 0.2727272727272727
+Recall: 0.75
+F1-Score: 0.39999999999999997
+
+Errors (not parsed): 
+1
+1
+1
+
+
+Results for run 7: 
+Confusion Matrix:
+23  6
+58  12
+Accuracy: 0.35353535353535354
+Precision: 0.2839506172839506
+Recall: 0.7931034482758621
+F1-Score: 0.4181818181818182
+
+Errors (not parsed): 
+0
+
+This is not ironic; it's a personal account of changing behaviors in response to evolving technology and services.
+
+
+Results for run 8: 
+Confusion Matrix:
+22  7
+59  10
+Accuracy: 0.32653061224489793
+Precision: 0.2716049382716049
+Recall: 0.7586206896551724
+F1-Score: 0.39999999999999997
+
+Errors (not parsed): 
+I can't determine irony in a deleted statement.
+1 
+0 
+1 
+1
+
+
+Results for run 9: 
+Confusion Matrix:
+23  6
+57  13
+Accuracy: 0.36363636363636365
+Precision: 0.2875
+Recall: 0.7931034482758621
+F1-Score: 0.4220183486238532
+
+Errors (not parsed): 
+1
+
+1
+
+1
+
+1
+
+
+Results for run 10: 
+Confusion Matrix:
+21  8
+60  11
+Accuracy: 0.32
+Precision: 0.25925925925925924
+Recall: 0.7241379310344828
+F1-Score: 0.38181818181818183
+
+Errors (not parsed): 
+
+
+Average Accuracy score across 10 runs: 0.3611278086992372
+Average Precision score across 10 runs: 0.2831916422488711
+Average Recall score across 10 runs: 0.781896551724138
+Average F1 score across 10 runs: 0.4157313660788325

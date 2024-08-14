@@ -1,0 +1,263 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.Alternate Prompt (prompt engineering): No
+Dataset: datasets\fixedsetreadin.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+13  16
+9  61
+Accuracy: 0.7474747474747475
+Precision: 0.5909090909090909
+Recall: 0.4482758620689655
+F1-Score: 0.5098039215686274
+
+Errors (not parsed): 
+Your input seems to be missing. Please provide a statement for me to analyse.
+
+
+Results for run 2: 
+Confusion Matrix:
+12  17
+10  60
+Accuracy: 0.7272727272727273
+Precision: 0.5454545454545454
+Recall: 0.41379310344827586
+F1-Score: 0.47058823529411764
+
+Errors (not parsed): 
+Sorry, no statement was provided. Please provide a statement for an accurate analysis.
+
+
+Results for run 3: 
+Confusion Matrix:
+12  17
+8  62
+Accuracy: 0.7474747474747475
+Precision: 0.6
+Recall: 0.41379310344827586
+F1-Score: 0.4897959183673469
+
+Errors (not parsed): 
+Sorry, there is no statement provided for me to analyze.
+
+
+Results for run 4: 
+Confusion Matrix:
+10  19
+9  62
+Accuracy: 0.72
+Precision: 0.5263157894736842
+Recall: 0.3448275862068966
+F1-Score: 0.4166666666666667
+
+Errors (not parsed): 
+
+
+Results for run 5: 
+Confusion Matrix:
+11  18
+10  60
+Accuracy: 0.7171717171717171
+Precision: 0.5238095238095238
+Recall: 0.3793103448275862
+F1-Score: 0.44
+
+Errors (not parsed): 
+As there is no statement provided, I cannot determine the presence of irony.
+
+
+Results for run 6: 
+Confusion Matrix:
+11  18
+8  63
+Accuracy: 0.74
+Precision: 0.5789473684210527
+Recall: 0.3793103448275862
+F1-Score: 0.45833333333333337
+
+Errors (not parsed): 
+
+
+Results for run 7: 
+Confusion Matrix:
+11  18
+12  58
+Accuracy: 0.696969696969697
+Precision: 0.4782608695652174
+Recall: 0.3793103448275862
+F1-Score: 0.4230769230769231
+
+Errors (not parsed): 
+Your input is missing. Please enter a statement for evaluation.
+
+
+Results for run 8: 
+Confusion Matrix:
+12  17
+8  62
+Accuracy: 0.7474747474747475
+Precision: 0.6
+Recall: 0.41379310344827586
+F1-Score: 0.4897959183673469
+
+Errors (not parsed): 
+Your statement is deleted or empty. Please provide a valid statement.
+
+
+Results for run 9: 
+Confusion Matrix:
+12  17
+9  61
+Accuracy: 0.7373737373737373
+Precision: 0.5714285714285714
+Recall: 0.41379310344827586
+F1-Score: 0.48000000000000004
+
+Errors (not parsed): 
+Since you didn't provide any statement, I cannot determine whether it is ironic or not. Please provide a statement.
+
+
+Results for run 10: 
+Confusion Matrix:
+11  18
+9  62
+Accuracy: 0.73
+Precision: 0.55
+Recall: 0.3793103448275862
+F1-Score: 0.4489795918367347
+
+Errors (not parsed): 
+
+
+Results for run 11: 
+Confusion Matrix:
+10  19
+6  65
+Accuracy: 0.75
+Precision: 0.625
+Recall: 0.3448275862068966
+F1-Score: 0.4444444444444445
+
+Errors (not parsed): 
+
+
+Results for run 12: 
+Confusion Matrix:
+14  15
+7  63
+Accuracy: 0.7777777777777778
+Precision: 0.6666666666666666
+Recall: 0.4827586206896552
+F1-Score: 0.56
+
+Errors (not parsed): 
+Your input is missing. Please provide a statement for evaluation.
+
+
+Results for run 13: 
+Confusion Matrix:
+9  20
+6  65
+Accuracy: 0.74
+Precision: 0.6
+Recall: 0.3103448275862069
+F1-Score: 0.4090909090909091
+
+Errors (not parsed): 
+
+
+Results for run 14: 
+Confusion Matrix:
+12  17
+8  62
+Accuracy: 0.7474747474747475
+Precision: 0.6
+Recall: 0.41379310344827586
+F1-Score: 0.4897959183673469
+
+Errors (not parsed): 
+As there's no statement provided, I can't determine whether it's ironic.
+
+
+Results for run 15: 
+Confusion Matrix:
+12  17
+7  63
+Accuracy: 0.7575757575757576
+Precision: 0.631578947368421
+Recall: 0.41379310344827586
+F1-Score: 0.5
+
+Errors (not parsed): 
+Since there's no statement provided, I cannot determine if it's ironic or not.
+
+
+Results for run 16: 
+Confusion Matrix:
+10  19
+11  60
+Accuracy: 0.7
+Precision: 0.47619047619047616
+Recall: 0.3448275862068966
+F1-Score: 0.39999999999999997
+
+Errors (not parsed): 
+
+
+Results for run 17: 
+Confusion Matrix:
+12  17
+9  61
+Accuracy: 0.7373737373737373
+Precision: 0.5714285714285714
+Recall: 0.41379310344827586
+F1-Score: 0.48000000000000004
+
+Errors (not parsed): 
+Apologies, but there's no statement provided for me to analyze for irony.
+
+
+Results for run 18: 
+Confusion Matrix:
+11  18
+9  61
+Accuracy: 0.7272727272727273
+Precision: 0.55
+Recall: 0.3793103448275862
+F1-Score: 0.4489795918367347
+
+Errors (not parsed): 
+As an AI, I need a statement to evaluate. Currently, there's nothing provided for me to assess for irony.
+
+
+Results for run 19: 
+Confusion Matrix:
+10  19
+9  61
+Accuracy: 0.7171717171717171
+Precision: 0.5263157894736842
+Recall: 0.3448275862068966
+F1-Score: 0.4166666666666667
+
+Errors (not parsed): 
+Your input seems to be missing. Please provide a statement for detecting irony.
+
+
+Results for run 20: 
+Confusion Matrix:
+13  16
+5  65
+Accuracy: 0.7878787878787878
+Precision: 0.7222222222222222
+Recall: 0.4482758620689655
+F1-Score: 0.5531914893617021
+
+Errors (not parsed): 
+Your input seems to be missing. Please enter a statement.
+
+
+Average Accuracy score across 20 runs: 0.7376868686868685
+Average Precision score across 20 runs: 0.5767264216205864
+Average Recall score across 20 runs: 0.3931034482758621
+Average F1 score across 20 runs: 0.466460476413945

@@ -1,0 +1,249 @@
+Model used: gpt-3.5-turbo
+Prompt: Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.Alternate Prompt (prompt engineering): noDetector
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+32  17
+21  30
+Accuracy: 0.62
+Precision: 0.6037735849056604
+Recall: 0.6530612244897959
+F1-Score: 0.6274509803921567
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Confusion Matrix:
+37  12
+24  27
+Accuracy: 0.64
+Precision: 0.6065573770491803
+Recall: 0.7551020408163265
+F1-Score: 0.6727272727272727
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Confusion Matrix:
+35  14
+22  29
+Accuracy: 0.64
+Precision: 0.6140350877192983
+Recall: 0.7142857142857143
+F1-Score: 0.6603773584905661
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Confusion Matrix:
+36  13
+21  30
+Accuracy: 0.66
+Precision: 0.631578947368421
+Recall: 0.7346938775510204
+F1-Score: 0.6792452830188679
+
+Errors (not parsed): 
+
+
+Results for run 5: 
+Confusion Matrix:
+32  17
+24  27
+Accuracy: 0.59
+Precision: 0.5714285714285714
+Recall: 0.6530612244897959
+F1-Score: 0.6095238095238094
+
+Errors (not parsed): 
+
+
+Results for run 6: 
+Confusion Matrix:
+38  11
+23  28
+Accuracy: 0.66
+Precision: 0.6229508196721312
+Recall: 0.7755102040816326
+F1-Score: 0.6909090909090909
+
+Errors (not parsed): 
+
+
+Results for run 7: 
+Confusion Matrix:
+31  18
+23  28
+Accuracy: 0.59
+Precision: 0.5740740740740741
+Recall: 0.6326530612244898
+F1-Score: 0.6019417475728156
+
+Errors (not parsed): 
+
+
+Results for run 8: 
+Confusion Matrix:
+35  14
+25  26
+Accuracy: 0.61
+Precision: 0.5833333333333334
+Recall: 0.7142857142857143
+F1-Score: 0.6422018348623854
+
+Errors (not parsed): 
+
+
+Results for run 9: 
+Confusion Matrix:
+33  16
+22  29
+Accuracy: 0.62
+Precision: 0.6
+Recall: 0.673469387755102
+F1-Score: 0.6346153846153846
+
+Errors (not parsed): 
+
+
+Results for run 10: 
+Confusion Matrix:
+35  14
+24  27
+Accuracy: 0.62
+Precision: 0.5932203389830508
+Recall: 0.7142857142857143
+F1-Score: 0.6481481481481481
+
+Errors (not parsed): 
+
+
+Results for run 11: 
+Confusion Matrix:
+36  13
+23  28
+Accuracy: 0.64
+Precision: 0.6101694915254238
+Recall: 0.7346938775510204
+F1-Score: 0.6666666666666667
+
+Errors (not parsed): 
+
+
+Results for run 12: 
+Confusion Matrix:
+36  13
+22  29
+Accuracy: 0.65
+Precision: 0.6206896551724138
+Recall: 0.7346938775510204
+F1-Score: 0.6728971962616822
+
+Errors (not parsed): 
+
+
+Results for run 13: 
+Confusion Matrix:
+34  15
+20  31
+Accuracy: 0.65
+Precision: 0.6296296296296297
+Recall: 0.6938775510204082
+F1-Score: 0.6601941747572815
+
+Errors (not parsed): 
+
+
+Results for run 14: 
+Confusion Matrix:
+34  15
+19  32
+Accuracy: 0.66
+Precision: 0.6415094339622641
+Recall: 0.6938775510204082
+F1-Score: 0.6666666666666666
+
+Errors (not parsed): 
+
+
+Results for run 15: 
+Confusion Matrix:
+35  14
+26  25
+Accuracy: 0.6
+Precision: 0.5737704918032787
+Recall: 0.7142857142857143
+F1-Score: 0.6363636363636364
+
+Errors (not parsed): 
+
+
+Results for run 16: 
+Confusion Matrix:
+36  13
+20  31
+Accuracy: 0.67
+Precision: 0.6428571428571429
+Recall: 0.7346938775510204
+F1-Score: 0.6857142857142857
+
+Errors (not parsed): 
+
+
+Results for run 17: 
+Confusion Matrix:
+39  10
+23  28
+Accuracy: 0.67
+Precision: 0.6290322580645161
+Recall: 0.7959183673469388
+F1-Score: 0.7027027027027026
+
+Errors (not parsed): 
+
+
+Results for run 18: 
+Confusion Matrix:
+33  16
+21  30
+Accuracy: 0.63
+Precision: 0.6111111111111112
+Recall: 0.673469387755102
+F1-Score: 0.6407766990291262
+
+Errors (not parsed): 
+
+
+Results for run 19: 
+Confusion Matrix:
+38  11
+21  30
+Accuracy: 0.68
+Precision: 0.6440677966101694
+Recall: 0.7755102040816326
+F1-Score: 0.7037037037037036
+
+Errors (not parsed): 
+
+
+Results for run 20: 
+Confusion Matrix:
+34  15
+24  27
+Accuracy: 0.61
+Precision: 0.5862068965517241
+Recall: 0.6938775510204082
+F1-Score: 0.6355140186915887
+
+Errors (not parsed): 
+
+
+Average Accuracy score across 20 runs: 0.6355000000000001
+Average Precision score across 20 runs: 0.6094998020910697
+Average Recall score across 20 runs: 0.713265306122449
+Average F1 score across 20 runs: 0.656917033040892
