@@ -1,0 +1,610 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with 'Yes' or 'No' depending on whether you think the following statements are ironic.
+Alternate Prompt (prompt engineering): yesNo
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+32  17
+15  36
+Accuracy: 0.68
+Precision: 0.6808510638297872
+Recall: 0.6530612244897959
+F1-Score: 0.6666666666666666
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Confusion Matrix:
+31  18
+19  32
+Accuracy: 0.63
+Precision: 0.62
+Recall: 0.6326530612244898
+F1-Score: 0.6262626262626263
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Confusion Matrix:
+30  19
+18  33
+Accuracy: 0.63
+Precision: 0.625
+Recall: 0.6122448979591837
+F1-Score: 0.6185567010309279
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Confusion Matrix:
+32  17
+19  32
+Accuracy: 0.64
+Precision: 0.6274509803921569
+Recall: 0.6530612244897959
+F1-Score: 0.64
+
+Errors (not parsed): 
+
+
+Results for run 5: 
+Confusion Matrix:
+34  15
+16  35
+Accuracy: 0.69
+Precision: 0.68
+Recall: 0.6938775510204082
+F1-Score: 0.686868686868687
+
+Errors (not parsed): 
+
+
+Results for run 6: 
+Confusion Matrix:
+31  18
+19  32
+Accuracy: 0.63
+Precision: 0.62
+Recall: 0.6326530612244898
+F1-Score: 0.6262626262626263
+
+Errors (not parsed): 
+
+
+Results for run 7: 
+Confusion Matrix:
+28  21
+15  36
+Accuracy: 0.64
+Precision: 0.6511627906976745
+Recall: 0.5714285714285714
+F1-Score: 0.6086956521739131
+
+Errors (not parsed): 
+
+
+Results for run 8: 
+Confusion Matrix:
+32  17
+12  39
+Accuracy: 0.71
+Precision: 0.7272727272727273
+Recall: 0.6530612244897959
+F1-Score: 0.6881720430107526
+
+Errors (not parsed): 
+
+
+Results for run 9: 
+Confusion Matrix:
+30  19
+17  34
+Accuracy: 0.64
+Precision: 0.6382978723404256
+Recall: 0.6122448979591837
+F1-Score: 0.625
+
+Errors (not parsed): 
+
+
+Results for run 10: 
+Confusion Matrix:
+30  19
+18  33
+Accuracy: 0.63
+Precision: 0.625
+Recall: 0.6122448979591837
+F1-Score: 0.6185567010309279
+
+Errors (not parsed): 
+
+
+Results for run 11: 
+Confusion Matrix:
+28  21
+17  34
+Accuracy: 0.62
+Precision: 0.6222222222222222
+Recall: 0.5714285714285714
+F1-Score: 0.5957446808510639
+
+Errors (not parsed): 
+
+
+Results for run 12: 
+Confusion Matrix:
+36  13
+15  36
+Accuracy: 0.72
+Precision: 0.7058823529411765
+Recall: 0.7346938775510204
+F1-Score: 0.7200000000000001
+
+Errors (not parsed): 
+
+
+Results for run 13: 
+Confusion Matrix:
+31  18
+22  29
+Accuracy: 0.6
+Precision: 0.5849056603773585
+Recall: 0.6326530612244898
+F1-Score: 0.6078431372549019
+
+Errors (not parsed): 
+
+
+Results for run 14: 
+Confusion Matrix:
+31  18
+21  30
+Accuracy: 0.61
+Precision: 0.5961538461538461
+Recall: 0.6326530612244898
+F1-Score: 0.6138613861386137
+
+Errors (not parsed): 
+
+
+Results for run 15: 
+Confusion Matrix:
+29  20
+14  37
+Accuracy: 0.66
+Precision: 0.6744186046511628
+Recall: 0.5918367346938775
+F1-Score: 0.6304347826086958
+
+Errors (not parsed): 
+
+
+Results for run 16: 
+Confusion Matrix:
+32  17
+15  36
+Accuracy: 0.68
+Precision: 0.6808510638297872
+Recall: 0.6530612244897959
+F1-Score: 0.6666666666666666
+
+Errors (not parsed): 
+
+
+Results for run 17: 
+Confusion Matrix:
+33  16
+16  35
+Accuracy: 0.68
+Precision: 0.673469387755102
+Recall: 0.673469387755102
+F1-Score: 0.673469387755102
+
+Errors (not parsed): 
+
+
+Results for run 18: 
+Confusion Matrix:
+34  15
+17  34
+Accuracy: 0.68
+Precision: 0.6666666666666666
+Recall: 0.6938775510204082
+F1-Score: 0.6799999999999999
+
+Errors (not parsed): 
+
+
+Results for run 19: 
+Confusion Matrix:
+30  19
+15  36
+Accuracy: 0.66
+Precision: 0.6666666666666666
+Recall: 0.6122448979591837
+F1-Score: 0.6382978723404255
+
+Errors (not parsed): 
+
+
+Results for run 20: 
+Confusion Matrix:
+30  19
+22  29
+Accuracy: 0.59
+Precision: 0.5769230769230769
+Recall: 0.6122448979591837
+F1-Score: 0.594059405940594
+
+Errors (not parsed): 
+
+
+Results for run 21: 
+Confusion Matrix:
+34  15
+18  33
+Accuracy: 0.67
+Precision: 0.6538461538461539
+Recall: 0.6938775510204082
+F1-Score: 0.6732673267326732
+
+Errors (not parsed): 
+
+
+Results for run 22: 
+Confusion Matrix:
+32  17
+16  35
+Accuracy: 0.67
+Precision: 0.6666666666666666
+Recall: 0.6530612244897959
+F1-Score: 0.6597938144329897
+
+Errors (not parsed): 
+
+
+Results for run 23: 
+Confusion Matrix:
+29  20
+20  31
+Accuracy: 0.6
+Precision: 0.5918367346938775
+Recall: 0.5918367346938775
+F1-Score: 0.5918367346938775
+
+Errors (not parsed): 
+
+
+Results for run 24: 
+Confusion Matrix:
+33  16
+15  36
+Accuracy: 0.69
+Precision: 0.6875
+Recall: 0.673469387755102
+F1-Score: 0.6804123711340205
+
+Errors (not parsed): 
+
+
+Results for run 25: 
+Confusion Matrix:
+31  18
+17  34
+Accuracy: 0.65
+Precision: 0.6458333333333334
+Recall: 0.6326530612244898
+F1-Score: 0.6391752577319587
+
+Errors (not parsed): 
+
+
+Results for run 26: 
+Confusion Matrix:
+27  22
+19  32
+Accuracy: 0.59
+Precision: 0.5869565217391305
+Recall: 0.5510204081632653
+F1-Score: 0.568421052631579
+
+Errors (not parsed): 
+
+
+Results for run 27: 
+Confusion Matrix:
+31  18
+19  32
+Accuracy: 0.63
+Precision: 0.62
+Recall: 0.6326530612244898
+F1-Score: 0.6262626262626263
+
+Errors (not parsed): 
+
+
+Results for run 28: 
+Confusion Matrix:
+25  24
+17  34
+Accuracy: 0.59
+Precision: 0.5952380952380952
+Recall: 0.5102040816326531
+F1-Score: 0.5494505494505494
+
+Errors (not parsed): 
+
+
+Results for run 29: 
+Confusion Matrix:
+35  14
+15  36
+Accuracy: 0.71
+Precision: 0.7
+Recall: 0.7142857142857143
+F1-Score: 0.7070707070707072
+
+Errors (not parsed): 
+
+
+Results for run 30: 
+Confusion Matrix:
+31  18
+17  34
+Accuracy: 0.65
+Precision: 0.6458333333333334
+Recall: 0.6326530612244898
+F1-Score: 0.6391752577319587
+
+Errors (not parsed): 
+
+
+Results for run 31: 
+Confusion Matrix:
+31  18
+17  34
+Accuracy: 0.65
+Precision: 0.6458333333333334
+Recall: 0.6326530612244898
+F1-Score: 0.6391752577319587
+
+Errors (not parsed): 
+
+
+Results for run 32: 
+Confusion Matrix:
+30  19
+14  37
+Accuracy: 0.67
+Precision: 0.6818181818181818
+Recall: 0.6122448979591837
+F1-Score: 0.6451612903225806
+
+Errors (not parsed): 
+
+
+Results for run 33: 
+Confusion Matrix:
+32  17
+24  27
+Accuracy: 0.59
+Precision: 0.5714285714285714
+Recall: 0.6530612244897959
+F1-Score: 0.6095238095238094
+
+Errors (not parsed): 
+
+
+Results for run 34: 
+Confusion Matrix:
+38  11
+22  29
+Accuracy: 0.67
+Precision: 0.6333333333333333
+Recall: 0.7755102040816326
+F1-Score: 0.6972477064220183
+
+Errors (not parsed): 
+
+
+Results for run 35: 
+Confusion Matrix:
+27  22
+16  35
+Accuracy: 0.62
+Precision: 0.627906976744186
+Recall: 0.5510204081632653
+F1-Score: 0.5869565217391305
+
+Errors (not parsed): 
+
+
+Results for run 36: 
+Confusion Matrix:
+32  17
+15  36
+Accuracy: 0.68
+Precision: 0.6808510638297872
+Recall: 0.6530612244897959
+F1-Score: 0.6666666666666666
+
+Errors (not parsed): 
+
+
+Results for run 37: 
+Confusion Matrix:
+28  21
+25  26
+Accuracy: 0.54
+Precision: 0.5283018867924528
+Recall: 0.5714285714285714
+F1-Score: 0.5490196078431372
+
+Errors (not parsed): 
+
+
+Results for run 38: 
+Confusion Matrix:
+31  18
+20  31
+Accuracy: 0.62
+Precision: 0.6078431372549019
+Recall: 0.6326530612244898
+F1-Score: 0.62
+
+Errors (not parsed): 
+
+
+Results for run 39: 
+Confusion Matrix:
+31  18
+17  34
+Accuracy: 0.65
+Precision: 0.6458333333333334
+Recall: 0.6326530612244898
+F1-Score: 0.6391752577319587
+
+Errors (not parsed): 
+
+
+Results for run 40: 
+Confusion Matrix:
+34  15
+15  36
+Accuracy: 0.7
+Precision: 0.6938775510204082
+Recall: 0.6938775510204082
+F1-Score: 0.6938775510204082
+
+Errors (not parsed): 
+
+
+Results for run 41: 
+Confusion Matrix:
+34  15
+16  35
+Accuracy: 0.69
+Precision: 0.68
+Recall: 0.6938775510204082
+F1-Score: 0.686868686868687
+
+Errors (not parsed): 
+
+
+Results for run 42: 
+Confusion Matrix:
+32  17
+16  35
+Accuracy: 0.67
+Precision: 0.6666666666666666
+Recall: 0.6530612244897959
+F1-Score: 0.6597938144329897
+
+Errors (not parsed): 
+
+
+Results for run 43: 
+Confusion Matrix:
+31  18
+19  32
+Accuracy: 0.63
+Precision: 0.62
+Recall: 0.6326530612244898
+F1-Score: 0.6262626262626263
+
+Errors (not parsed): 
+
+
+Results for run 44: 
+Confusion Matrix:
+34  15
+21  30
+Accuracy: 0.64
+Precision: 0.6181818181818182
+Recall: 0.6938775510204082
+F1-Score: 0.6538461538461539
+
+Errors (not parsed): 
+
+
+Results for run 45: 
+Confusion Matrix:
+38  11
+20  31
+Accuracy: 0.69
+Precision: 0.6551724137931034
+Recall: 0.7755102040816326
+F1-Score: 0.7102803738317757
+
+Errors (not parsed): 
+
+
+Results for run 46: 
+Confusion Matrix:
+31  18
+20  31
+Accuracy: 0.62
+Precision: 0.6078431372549019
+Recall: 0.6326530612244898
+F1-Score: 0.62
+
+Errors (not parsed): 
+
+
+Results for run 47: 
+Confusion Matrix:
+34  15
+22  29
+Accuracy: 0.63
+Precision: 0.6071428571428571
+Recall: 0.6938775510204082
+F1-Score: 0.6476190476190475
+
+Errors (not parsed): 
+
+
+Results for run 48: 
+Confusion Matrix:
+32  17
+18  33
+Accuracy: 0.65
+Precision: 0.64
+Recall: 0.6530612244897959
+F1-Score: 0.6464646464646464
+
+Errors (not parsed): 
+
+
+Results for run 49: 
+Confusion Matrix:
+32  17
+15  36
+Accuracy: 0.68
+Precision: 0.6808510638297872
+Recall: 0.6530612244897959
+F1-Score: 0.6666666666666666
+
+Errors (not parsed): 
+
+
+Results for run 50: 
+Confusion Matrix:
+29  20
+16  35
+Accuracy: 0.64
+Precision: 0.6444444444444445
+Recall: 0.5918367346938775
+F1-Score: 0.6170212765957447
+
+Errors (not parsed): 
+
+
+Average Accuracy score across 50 runs: 0.648
+Average Precision score across 50 runs: 0.6414847118354499
+Average Recall score across 50 runs: 0.6420408163265305
+Average F1 score across 50 runs: 0.640838233646523
