@@ -1,0 +1,138 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond with 'Yes' or 'No' depending on whether you think the following statements are ironic.
+Alternate Prompt (prompt engineering): yesNo
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+28  21
+4  47
+Accuracy: 0.75
+Precision: 0.875
+Recall: 0.5714285714285714
+F1-Score: 0.691358024691358
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Confusion Matrix:
+28  21
+5  46
+Accuracy: 0.74
+Precision: 0.8484848484848485
+Recall: 0.5714285714285714
+F1-Score: 0.6829268292682927
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Confusion Matrix:
+30  19
+4  46
+Accuracy: 0.7676767676767676
+Precision: 0.8823529411764706
+Recall: 0.6122448979591837
+F1-Score: 0.7228915662650602
+
+Errors (not parsed): 
+93: Your statement is incomplete. Please provide more information.
+
+
+Results for run 4: 
+Confusion Matrix:
+30  19
+4  46
+Accuracy: 0.7676767676767676
+Precision: 0.8823529411764706
+Recall: 0.6122448979591837
+F1-Score: 0.7228915662650602
+
+Errors (not parsed): 
+93: Can you provide a complete sentence or context?
+
+
+Results for run 5: 
+Confusion Matrix:
+30  19
+4  46
+Accuracy: 0.7676767676767676
+Precision: 0.8823529411764706
+Recall: 0.6122448979591837
+F1-Score: 0.7228915662650602
+
+Errors (not parsed): 
+93: Sorry, this statement doesn't show any signs of irony. Can you please provide further details or more complete statements?
+
+
+Results for run 6: 
+Confusion Matrix:
+28  21
+4  46
+Accuracy: 0.7474747474747475
+Precision: 0.875
+Recall: 0.5714285714285714
+F1-Score: 0.691358024691358
+
+Errors (not parsed): 
+93: Your provided statement is incomplete. Please add more details to determine if it contains irony.
+
+
+Results for run 7: 
+Confusion Matrix:
+29  20
+5  45
+Accuracy: 0.7474747474747475
+Precision: 0.8529411764705882
+Recall: 0.5918367346938775
+F1-Score: 0.6987951807228915
+
+Errors (not parsed): 
+93: This statement is too vague to ascertain irony. Please provide more context.
+
+
+Results for run 8: 
+Confusion Matrix:
+28  21
+5  45
+Accuracy: 0.7373737373737373
+Precision: 0.8484848484848485
+Recall: 0.5714285714285714
+F1-Score: 0.6829268292682927
+
+Errors (not parsed): 
+93: This statement is too vague for a clear determination. Could you provide more context?
+
+
+Results for run 9: 
+Confusion Matrix:
+29  20
+4  46
+Accuracy: 0.7575757575757576
+Precision: 0.8787878787878788
+Recall: 0.5918367346938775
+F1-Score: 0.7073170731707316
+
+Errors (not parsed): 
+93: This statement is too vague to determine irony. Could you please provide more information or context?
+
+
+Results for run 10: 
+Confusion Matrix:
+29  20
+4  46
+Accuracy: 0.7575757575757576
+Precision: 0.8787878787878788
+Recall: 0.5918367346938775
+F1-Score: 0.7073170731707316
+
+Errors (not parsed): 
+93: This statement is incomplete, so I can't determine whether it's ironic. Can you please provide more context or the rest of the statement?
+
+
+Average Accuracy score across 10 runs: 0.7540505050505051
+Average Precision score across 10 runs: 0.8704545454545455
+Average Recall score across 10 runs: 0.5897959183673469
+Average F1 score across 10 runs: 0.7030673733778836

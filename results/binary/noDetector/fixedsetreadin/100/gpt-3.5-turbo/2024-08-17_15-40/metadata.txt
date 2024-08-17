@@ -1,0 +1,291 @@
+Model used: gpt-3.5-turbo
+Prompt: Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
+Alternate Prompt (prompt engineering): noDetector
+Dataset: datasets\fixedsetreadin.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+19  10
+42  26
+Accuracy: 0.4639175257731959
+Precision: 0.3114754098360656
+Recall: 0.6551724137931034
+F1-Score: 0.4222222222222222
+
+Errors (not parsed): 
+34: I'm sorry, but I can't provide a response without knowing the content of the statement.
+35: 1
+0
+1
+0
+0
+97: I am unable to access external links.
+
+
+Results for run 2: 
+Confusion Matrix:
+13  16
+39  31
+Accuracy: 0.4444444444444444
+Precision: 0.25
+Recall: 0.4482758620689655
+F1-Score: 0.32098765432098764
+
+Errors (not parsed): 
+34: I'm sorry, but I cannot provide an answer without the context of the statement. If you can provide me with the statement, I'd be happy to help assess the irony.
+
+
+Results for run 3: 
+Confusion Matrix:
+17  12
+45  24
+Accuracy: 0.41836734693877553
+Precision: 0.27419354838709675
+Recall: 0.5862068965517241
+F1-Score: 0.3736263736263736
+
+Errors (not parsed): 
+34: I cannot answer the question without the context of the statement.
+97: I cannot access external links.
+
+
+Results for run 4: 
+Confusion Matrix:
+19  10
+43  27
+Accuracy: 0.46464646464646464
+Precision: 0.3064516129032258
+Recall: 0.6551724137931034
+F1-Score: 0.41758241758241765
+
+Errors (not parsed): 
+97: I can't access external links, but based on the content provided, I would say:
+1
+
+
+Results for run 5: 
+Confusion Matrix:
+16  13
+47  23
+Accuracy: 0.3939393939393939
+Precision: 0.25396825396825395
+Recall: 0.5517241379310345
+F1-Score: 0.3478260869565217
+
+Errors (not parsed): 
+97: I cannot access the content of the link since I am unable to browse the internet.
+
+
+Results for run 6: 
+Confusion Matrix:
+19  10
+50  19
+Accuracy: 0.3877551020408163
+Precision: 0.2753623188405797
+Recall: 0.6551724137931034
+F1-Score: 0.38775510204081637
+
+Errors (not parsed): 
+34: I cannot respond without the statement.
+97: I cannot access external content, so unfortunately I cannot view the specified link.
+
+
+Results for run 7: 
+Confusion Matrix:
+15  14
+43  23
+Accuracy: 0.4
+Precision: 0.25862068965517243
+Recall: 0.5172413793103449
+F1-Score: 0.3448275862068966
+
+Errors (not parsed): 
+34: I cannot provide a response as the original statement has been deleted.
+36: 0 - (no)
+39: The statement is not ironic.
+58: 0 
+0 
+0 
+0
+97: I cannot access the link you provided.
+
+
+Results for run 8: 
+Confusion Matrix:
+18  11
+48  20
+Accuracy: 0.3917525773195876
+Precision: 0.2727272727272727
+Recall: 0.6206896551724138
+F1-Score: 0.37894736842105264
+
+Errors (not parsed): 
+34: I'm sorry, but I cannot provide a response as the statement is not provided. If you can give me the statement, I would be happy to assess it for irony.
+58: 1, 1, 0, 1
+97: I am unable to access external links. Feel free to provide a brief summary or context for me to assist you better.
+
+
+Results for run 9: 
+Confusion Matrix:
+17  12
+41  29
+Accuracy: 0.46464646464646464
+Precision: 0.29310344827586204
+Recall: 0.5862068965517241
+F1-Score: 0.3908045977011494
+
+Errors (not parsed): 
+34: I cannot provide a response as the statement you are referring to has been deleted.
+
+
+Results for run 10: 
+Confusion Matrix:
+16  13
+49  21
+Accuracy: 0.37373737373737376
+Precision: 0.24615384615384617
+Recall: 0.5517241379310345
+F1-Score: 0.34042553191489366
+
+Errors (not parsed): 
+97: I cannot access the provided link.
+
+
+Results for run 11: 
+Confusion Matrix:
+19  10
+47  23
+Accuracy: 0.42424242424242425
+Precision: 0.2878787878787879
+Recall: 0.6551724137931034
+F1-Score: 0.4
+
+Errors (not parsed): 
+97: I cannot access external content, so I'm unable to view the specific link you shared.
+
+
+Results for run 12: 
+Confusion Matrix:
+15  14
+39  30
+Accuracy: 0.45918367346938777
+Precision: 0.2777777777777778
+Recall: 0.5172413793103449
+F1-Score: 0.3614457831325302
+
+Errors (not parsed): 
+34: I cannot determine the content of the deleted statement, so I cannot provide a response.
+97: I cannot access the web, but feel free to provide the text or summarize it for me.
+
+
+Results for run 13: 
+Confusion Matrix:
+14  15
+40  31
+Accuracy: 0.45
+Precision: 0.25925925925925924
+Recall: 0.4827586206896552
+F1-Score: 0.3373493975903614
+
+Errors (not parsed): 
+
+
+Results for run 14: 
+Confusion Matrix:
+18  11
+41  29
+Accuracy: 0.47474747474747475
+Precision: 0.3050847457627119
+Recall: 0.6206896551724138
+F1-Score: 0.40909090909090917
+
+Errors (not parsed): 
+97: I'm sorry, I cannot access external websites or specific contents for you. Is there anything else I can help you with?
+
+
+Results for run 15: 
+Confusion Matrix:
+17  12
+45  26
+Accuracy: 0.43
+Precision: 0.27419354838709675
+Recall: 0.5862068965517241
+F1-Score: 0.3736263736263736
+
+Errors (not parsed): 
+
+
+Results for run 16: 
+Confusion Matrix:
+15  14
+42  27
+Accuracy: 0.42857142857142855
+Precision: 0.2631578947368421
+Recall: 0.5172413793103449
+F1-Score: 0.34883720930232553
+
+Errors (not parsed): 
+34: I cannot respond to a deleted statement. If you provide the statement, I would be happy to help determine if it is ironic or not.
+97: I cannot access external links.
+
+
+Results for run 17: 
+Confusion Matrix:
+16  13
+44  26
+Accuracy: 0.42424242424242425
+Precision: 0.26666666666666666
+Recall: 0.5517241379310345
+F1-Score: 0.35955056179775285
+
+Errors (not parsed): 
+97: I can't access external links.
+
+
+Results for run 18: 
+Confusion Matrix:
+20  9
+38  31
+Accuracy: 0.5204081632653061
+Precision: 0.3448275862068966
+Recall: 0.6896551724137931
+F1-Score: 0.4597701149425288
+
+Errors (not parsed): 
+34: I'm sorry, but as there is no statement provided, I cannot determine if it is ironic.
+97: I'm sorry, I cannot access the link you provided.
+
+
+Results for run 19: 
+Confusion Matrix:
+13  16
+45  25
+Accuracy: 0.3838383838383838
+Precision: 0.22413793103448276
+Recall: 0.4482758620689655
+F1-Score: 0.2988505747126437
+
+Errors (not parsed): 
+97: I am unable to access external websites.
+
+
+Results for run 20: 
+Confusion Matrix:
+14  15
+36  32
+Accuracy: 0.4742268041237113
+Precision: 0.28
+Recall: 0.4827586206896552
+F1-Score: 0.35443037974683544
+
+Errors (not parsed): 
+34: I'm sorry, but I cannot determine the content of the deleted message. Could you provide some context or rephrase the statement for me to assess its irony?
+94: 1 - Yes
+97: I'm sorry, but I'm unable to access external links.
+
+
+Average Accuracy score across 20 runs: 0.4336333734993529
+Average Precision score across 20 runs: 0.2762520299228949
+Average Recall score across 20 runs: 0.5689655172413793
+Average F1 score across 20 runs: 0.3713978122467796
