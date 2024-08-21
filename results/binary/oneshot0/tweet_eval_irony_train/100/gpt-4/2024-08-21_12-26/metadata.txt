@@ -1,0 +1,130 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic. An example of a non-ironic statement: "@user No! I rarely drink at all. Got a stomach bug :-("
+Alternate Prompt (prompt engineering): oneshot0
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+34  15
+6  45
+Accuracy: 0.79
+Precision: 0.85
+Recall: 0.6938775510204082
+F1-Score: 0.7640449438202247
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Confusion Matrix:
+34  15
+5  46
+Accuracy: 0.8
+Precision: 0.8717948717948718
+Recall: 0.6938775510204082
+F1-Score: 0.7727272727272728
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Confusion Matrix:
+33  16
+5  46
+Accuracy: 0.79
+Precision: 0.868421052631579
+Recall: 0.673469387755102
+F1-Score: 0.7586206896551724
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Confusion Matrix:
+35  14
+5  46
+Accuracy: 0.81
+Precision: 0.875
+Recall: 0.7142857142857143
+F1-Score: 0.7865168539325842
+
+Errors (not parsed): 
+
+
+Results for run 5: 
+Confusion Matrix:
+35  14
+6  45
+Accuracy: 0.8
+Precision: 0.8536585365853658
+Recall: 0.7142857142857143
+F1-Score: 0.7777777777777778
+
+Errors (not parsed): 
+
+
+Results for run 6: 
+Confusion Matrix:
+36  13
+7  44
+Accuracy: 0.8
+Precision: 0.8372093023255814
+Recall: 0.7346938775510204
+F1-Score: 0.782608695652174
+
+Errors (not parsed): 
+
+
+Results for run 7: 
+Confusion Matrix:
+34  15
+7  44
+Accuracy: 0.78
+Precision: 0.8292682926829268
+Recall: 0.6938775510204082
+F1-Score: 0.7555555555555555
+
+Errors (not parsed): 
+
+
+Results for run 8: 
+Confusion Matrix:
+37  12
+6  45
+Accuracy: 0.82
+Precision: 0.8604651162790697
+Recall: 0.7551020408163265
+F1-Score: 0.8043478260869564
+
+Errors (not parsed): 
+
+
+Results for run 9: 
+Confusion Matrix:
+33  16
+8  43
+Accuracy: 0.76
+Precision: 0.8048780487804879
+Recall: 0.673469387755102
+F1-Score: 0.7333333333333334
+
+Errors (not parsed): 
+
+
+Results for run 10: 
+Confusion Matrix:
+34  15
+8  43
+Accuracy: 0.77
+Precision: 0.8095238095238095
+Recall: 0.6938775510204082
+F1-Score: 0.7472527472527472
+
+Errors (not parsed): 
+
+
+Average Accuracy score across 10 runs: 0.792
+Average Precision score across 10 runs: 0.8460219030603691
+Average Recall score across 10 runs: 0.7040816326530612
+Average F1 score across 10 runs: 0.7682785695793798

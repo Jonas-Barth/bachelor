@@ -1,0 +1,613 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic. An example of an ironic statement: "Always fun when buses don't turn up! It's my favorite waiting outside in the freezing cold for them for like half an hour"
+Alternate Prompt (prompt engineering): oneshot1
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+40  9
+21  30
+Accuracy: 0.7
+Precision: 0.6557377049180327
+Recall: 0.8163265306122449
+F1-Score: 0.7272727272727273
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Confusion Matrix:
+43  6
+20  31
+Accuracy: 0.74
+Precision: 0.6825396825396826
+Recall: 0.8775510204081632
+F1-Score: 0.7678571428571428
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Confusion Matrix:
+42  7
+23  28
+Accuracy: 0.7
+Precision: 0.6461538461538462
+Recall: 0.8571428571428571
+F1-Score: 0.736842105263158
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Confusion Matrix:
+42  7
+19  32
+Accuracy: 0.74
+Precision: 0.6885245901639344
+Recall: 0.8571428571428571
+F1-Score: 0.7636363636363637
+
+Errors (not parsed): 
+
+
+Results for run 5: 
+Confusion Matrix:
+38  11
+22  29
+Accuracy: 0.67
+Precision: 0.6333333333333333
+Recall: 0.7755102040816326
+F1-Score: 0.6972477064220183
+
+Errors (not parsed): 
+
+
+Results for run 6: 
+Confusion Matrix:
+41  8
+24  27
+Accuracy: 0.68
+Precision: 0.6307692307692307
+Recall: 0.8367346938775511
+F1-Score: 0.7192982456140352
+
+Errors (not parsed): 
+
+
+Results for run 7: 
+Confusion Matrix:
+41  8
+20  31
+Accuracy: 0.72
+Precision: 0.6721311475409836
+Recall: 0.8367346938775511
+F1-Score: 0.7454545454545455
+
+Errors (not parsed): 
+
+
+Results for run 8: 
+Confusion Matrix:
+42  7
+18  33
+Accuracy: 0.75
+Precision: 0.7
+Recall: 0.8571428571428571
+F1-Score: 0.7706422018348624
+
+Errors (not parsed): 
+
+
+Results for run 9: 
+Confusion Matrix:
+39  10
+20  31
+Accuracy: 0.7
+Precision: 0.6610169491525424
+Recall: 0.7959183673469388
+F1-Score: 0.7222222222222222
+
+Errors (not parsed): 
+
+
+Results for run 10: 
+Confusion Matrix:
+42  7
+24  27
+Accuracy: 0.69
+Precision: 0.6363636363636364
+Recall: 0.8571428571428571
+F1-Score: 0.7304347826086957
+
+Errors (not parsed): 
+
+
+Results for run 11: 
+Confusion Matrix:
+43  6
+21  30
+Accuracy: 0.73
+Precision: 0.671875
+Recall: 0.8775510204081632
+F1-Score: 0.7610619469026548
+
+Errors (not parsed): 
+
+
+Results for run 12: 
+Confusion Matrix:
+39  10
+21  30
+Accuracy: 0.69
+Precision: 0.65
+Recall: 0.7959183673469388
+F1-Score: 0.7155963302752293
+
+Errors (not parsed): 
+
+
+Results for run 13: 
+Confusion Matrix:
+43  6
+21  30
+Accuracy: 0.73
+Precision: 0.671875
+Recall: 0.8775510204081632
+F1-Score: 0.7610619469026548
+
+Errors (not parsed): 
+
+
+Results for run 14: 
+Confusion Matrix:
+41  8
+24  27
+Accuracy: 0.68
+Precision: 0.6307692307692307
+Recall: 0.8367346938775511
+F1-Score: 0.7192982456140352
+
+Errors (not parsed): 
+
+
+Results for run 15: 
+Confusion Matrix:
+41  8
+19  32
+Accuracy: 0.73
+Precision: 0.6833333333333333
+Recall: 0.8367346938775511
+F1-Score: 0.7522935779816514
+
+Errors (not parsed): 
+
+
+Results for run 16: 
+Confusion Matrix:
+38  11
+25  26
+Accuracy: 0.64
+Precision: 0.6031746031746031
+Recall: 0.7755102040816326
+F1-Score: 0.6785714285714285
+
+Errors (not parsed): 
+
+
+Results for run 17: 
+Confusion Matrix:
+41  8
+21  30
+Accuracy: 0.71
+Precision: 0.6612903225806451
+Recall: 0.8367346938775511
+F1-Score: 0.7387387387387386
+
+Errors (not parsed): 
+
+
+Results for run 18: 
+Confusion Matrix:
+43  6
+20  31
+Accuracy: 0.74
+Precision: 0.6825396825396826
+Recall: 0.8775510204081632
+F1-Score: 0.7678571428571428
+
+Errors (not parsed): 
+
+
+Results for run 19: 
+Confusion Matrix:
+41  8
+23  28
+Accuracy: 0.69
+Precision: 0.640625
+Recall: 0.8367346938775511
+F1-Score: 0.7256637168141593
+
+Errors (not parsed): 
+
+
+Results for run 20: 
+Confusion Matrix:
+42  7
+19  32
+Accuracy: 0.74
+Precision: 0.6885245901639344
+Recall: 0.8571428571428571
+F1-Score: 0.7636363636363637
+
+Errors (not parsed): 
+
+
+Results for run 21: 
+Confusion Matrix:
+43  6
+23  28
+Accuracy: 0.71
+Precision: 0.6515151515151515
+Recall: 0.8775510204081632
+F1-Score: 0.7478260869565216
+
+Errors (not parsed): 
+
+
+Results for run 22: 
+Confusion Matrix:
+42  7
+23  28
+Accuracy: 0.7
+Precision: 0.6461538461538462
+Recall: 0.8571428571428571
+F1-Score: 0.736842105263158
+
+Errors (not parsed): 
+
+
+Results for run 23: 
+Confusion Matrix:
+42  7
+24  27
+Accuracy: 0.69
+Precision: 0.6363636363636364
+Recall: 0.8571428571428571
+F1-Score: 0.7304347826086957
+
+Errors (not parsed): 
+
+
+Results for run 24: 
+Confusion Matrix:
+40  9
+24  27
+Accuracy: 0.67
+Precision: 0.625
+Recall: 0.8163265306122449
+F1-Score: 0.7079646017699115
+
+Errors (not parsed): 
+
+
+Results for run 25: 
+Confusion Matrix:
+39  10
+20  31
+Accuracy: 0.7
+Precision: 0.6610169491525424
+Recall: 0.7959183673469388
+F1-Score: 0.7222222222222222
+
+Errors (not parsed): 
+
+
+Results for run 26: 
+Confusion Matrix:
+44  5
+18  33
+Accuracy: 0.77
+Precision: 0.7096774193548387
+Recall: 0.8979591836734694
+F1-Score: 0.7927927927927928
+
+Errors (not parsed): 
+
+
+Results for run 27: 
+Confusion Matrix:
+39  10
+27  24
+Accuracy: 0.63
+Precision: 0.5909090909090909
+Recall: 0.7959183673469388
+F1-Score: 0.6782608695652174
+
+Errors (not parsed): 
+
+
+Results for run 28: 
+Confusion Matrix:
+41  8
+21  30
+Accuracy: 0.71
+Precision: 0.6612903225806451
+Recall: 0.8367346938775511
+F1-Score: 0.7387387387387386
+
+Errors (not parsed): 
+
+
+Results for run 29: 
+Confusion Matrix:
+41  8
+22  29
+Accuracy: 0.7
+Precision: 0.6507936507936508
+Recall: 0.8367346938775511
+F1-Score: 0.7321428571428571
+
+Errors (not parsed): 
+
+
+Results for run 30: 
+Confusion Matrix:
+41  8
+22  29
+Accuracy: 0.7
+Precision: 0.6507936507936508
+Recall: 0.8367346938775511
+F1-Score: 0.7321428571428571
+
+Errors (not parsed): 
+
+
+Results for run 31: 
+Confusion Matrix:
+39  10
+20  31
+Accuracy: 0.7
+Precision: 0.6610169491525424
+Recall: 0.7959183673469388
+F1-Score: 0.7222222222222222
+
+Errors (not parsed): 
+
+
+Results for run 32: 
+Confusion Matrix:
+43  6
+23  28
+Accuracy: 0.71
+Precision: 0.6515151515151515
+Recall: 0.8775510204081632
+F1-Score: 0.7478260869565216
+
+Errors (not parsed): 
+
+
+Results for run 33: 
+Confusion Matrix:
+43  6
+27  24
+Accuracy: 0.67
+Precision: 0.6142857142857143
+Recall: 0.8775510204081632
+F1-Score: 0.7226890756302522
+
+Errors (not parsed): 
+
+
+Results for run 34: 
+Confusion Matrix:
+41  8
+26  25
+Accuracy: 0.66
+Precision: 0.6119402985074627
+Recall: 0.8367346938775511
+F1-Score: 0.706896551724138
+
+Errors (not parsed): 
+
+
+Results for run 35: 
+Confusion Matrix:
+43  6
+25  26
+Accuracy: 0.69
+Precision: 0.6323529411764706
+Recall: 0.8775510204081632
+F1-Score: 0.7350427350427351
+
+Errors (not parsed): 
+
+
+Results for run 36: 
+Confusion Matrix:
+41  8
+19  32
+Accuracy: 0.73
+Precision: 0.6833333333333333
+Recall: 0.8367346938775511
+F1-Score: 0.7522935779816514
+
+Errors (not parsed): 
+
+
+Results for run 37: 
+Confusion Matrix:
+40  9
+22  29
+Accuracy: 0.69
+Precision: 0.6451612903225806
+Recall: 0.8163265306122449
+F1-Score: 0.7207207207207208
+
+Errors (not parsed): 
+
+
+Results for run 38: 
+Confusion Matrix:
+40  9
+22  29
+Accuracy: 0.69
+Precision: 0.6451612903225806
+Recall: 0.8163265306122449
+F1-Score: 0.7207207207207208
+
+Errors (not parsed): 
+
+
+Results for run 39: 
+Confusion Matrix:
+41  8
+24  27
+Accuracy: 0.68
+Precision: 0.6307692307692307
+Recall: 0.8367346938775511
+F1-Score: 0.7192982456140352
+
+Errors (not parsed): 
+
+
+Results for run 40: 
+Confusion Matrix:
+42  7
+21  30
+Accuracy: 0.72
+Precision: 0.6666666666666666
+Recall: 0.8571428571428571
+F1-Score: 0.75
+
+Errors (not parsed): 
+
+
+Results for run 41: 
+Confusion Matrix:
+38  11
+23  28
+Accuracy: 0.66
+Precision: 0.6229508196721312
+Recall: 0.7755102040816326
+F1-Score: 0.6909090909090909
+
+Errors (not parsed): 
+
+
+Results for run 42: 
+Confusion Matrix:
+42  7
+27  24
+Accuracy: 0.66
+Precision: 0.6086956521739131
+Recall: 0.8571428571428571
+F1-Score: 0.7118644067796609
+
+Errors (not parsed): 
+
+
+Results for run 43: 
+Confusion Matrix:
+42  7
+20  31
+Accuracy: 0.73
+Precision: 0.6774193548387096
+Recall: 0.8571428571428571
+F1-Score: 0.7567567567567567
+
+Errors (not parsed): 
+
+
+Results for run 44: 
+Confusion Matrix:
+41  8
+21  29
+Accuracy: 0.7070707070707071
+Precision: 0.6612903225806451
+Recall: 0.8367346938775511
+F1-Score: 0.7387387387387386
+
+Errors (not parsed): 
+56: 1
+
+(Yes, this statement is ironic because the person is asking to be woken up early despite the fact that they have been facing backaches since early December, implying that getting up early might not be the best solution for their health.)
+
+
+Results for run 45: 
+Confusion Matrix:
+41  8
+18  33
+Accuracy: 0.74
+Precision: 0.6949152542372882
+Recall: 0.8367346938775511
+F1-Score: 0.7592592592592592
+
+Errors (not parsed): 
+
+
+Results for run 46: 
+Confusion Matrix:
+39  10
+22  29
+Accuracy: 0.68
+Precision: 0.639344262295082
+Recall: 0.7959183673469388
+F1-Score: 0.7090909090909091
+
+Errors (not parsed): 
+
+
+Results for run 47: 
+Confusion Matrix:
+40  9
+25  26
+Accuracy: 0.66
+Precision: 0.6153846153846154
+Recall: 0.8163265306122449
+F1-Score: 0.7017543859649124
+
+Errors (not parsed): 
+
+
+Results for run 48: 
+Confusion Matrix:
+43  6
+21  30
+Accuracy: 0.73
+Precision: 0.671875
+Recall: 0.8775510204081632
+F1-Score: 0.7610619469026548
+
+Errors (not parsed): 
+
+
+Results for run 49: 
+Confusion Matrix:
+41  8
+17  34
+Accuracy: 0.75
+Precision: 0.7068965517241379
+Recall: 0.8367346938775511
+F1-Score: 0.7663551401869159
+
+Errors (not parsed): 
+
+
+Results for run 50: 
+Confusion Matrix:
+45  4
+21  30
+Accuracy: 0.75
+Precision: 0.6818181818181818
+Recall: 0.9183673469387755
+F1-Score: 0.782608695652174
+
+Errors (not parsed): 
+
+
+Average Accuracy score across 50 runs: 0.7031414141414141
+Average Precision score across 50 runs: 0.653937669637803
+Average Recall score across 50 runs: 0.8404081632653059
+Average F1 score across 50 runs: 0.7352032932507376
