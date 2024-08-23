@@ -1,0 +1,170 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic, and add a percentage value of how confident you are in your assessment. Make sure your response format is '[1 or 0] [Confidence Percentage]'
+Alternate Prompt (prompt engineering): No
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+48  1
+47  4
+truepos confidence avg: 85.9375
+falsepos confidence avg: 85.31914893617021
+falseneg confidence avg: 85.0
+trueneg confidence avg: 58.75
+Accuracy: 0.52
+Precision: 0.5052631578947369
+Recall: 0.9795918367346939
+F1-Score: 0.6666666666666666
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Confusion Matrix:
+48  1
+46  5
+truepos confidence avg: 87.5
+falsepos confidence avg: 85.1086956521739
+falseneg confidence avg: 20.0
+trueneg confidence avg: 77.0
+Accuracy: 0.53
+Precision: 0.5106382978723404
+Recall: 0.9795918367346939
+F1-Score: 0.6713286713286712
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Confusion Matrix:
+49  0
+43  8
+truepos confidence avg: 87.34693877551021
+falsepos confidence avg: 86.62790697674419
+falseneg confidence avg: 0
+trueneg confidence avg: 76.25
+Accuracy: 0.57
+Precision: 0.532608695652174
+Recall: 1.0
+F1-Score: 0.6950354609929079
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Confusion Matrix:
+49  0
+45  6
+truepos confidence avg: 86.53061224489795
+falsepos confidence avg: 86.66666666666667
+falseneg confidence avg: 0
+trueneg confidence avg: 70.0
+Accuracy: 0.55
+Precision: 0.5212765957446809
+Recall: 1.0
+F1-Score: 0.6853146853146853
+
+Errors (not parsed): 
+
+
+Results for run 5: 
+Confusion Matrix:
+49  0
+44  7
+truepos confidence avg: 87.34693877551021
+falsepos confidence avg: 85.79545454545455
+falseneg confidence avg: 0
+trueneg confidence avg: 67.85714285714286
+Accuracy: 0.56
+Precision: 0.5268817204301075
+Recall: 1.0
+F1-Score: 0.6901408450704225
+
+Errors (not parsed): 
+
+
+Results for run 6: 
+Confusion Matrix:
+48  1
+47  4
+truepos confidence avg: 86.875
+falsepos confidence avg: 86.80851063829788
+falseneg confidence avg: 70.0
+trueneg confidence avg: 67.5
+Accuracy: 0.52
+Precision: 0.5052631578947369
+Recall: 0.9795918367346939
+F1-Score: 0.6666666666666666
+
+Errors (not parsed): 
+
+
+Results for run 7: 
+Confusion Matrix:
+49  0
+49  2
+truepos confidence avg: 86.42857142857143
+falsepos confidence avg: 86.83673469387755
+falseneg confidence avg: 0
+trueneg confidence avg: 50.0
+Accuracy: 0.51
+Precision: 0.5
+Recall: 1.0
+F1-Score: 0.6666666666666666
+
+Errors (not parsed): 
+
+
+Results for run 8: 
+Confusion Matrix:
+49  0
+48  3
+truepos confidence avg: 87.55102040816327
+falsepos confidence avg: 84.79166666666667
+falseneg confidence avg: 0
+trueneg confidence avg: 73.33333333333333
+Accuracy: 0.52
+Precision: 0.5051546391752577
+Recall: 1.0
+F1-Score: 0.6712328767123288
+
+Errors (not parsed): 
+
+
+Results for run 9: 
+Confusion Matrix:
+49  0
+44  7
+truepos confidence avg: 85.81632653061224
+falsepos confidence avg: 84.88636363636364
+falseneg confidence avg: 0
+trueneg confidence avg: 71.42857142857143
+Accuracy: 0.56
+Precision: 0.5268817204301075
+Recall: 1.0
+F1-Score: 0.6901408450704225
+
+Errors (not parsed): 
+
+
+Results for run 10: 
+Confusion Matrix:
+49  0
+47  4
+truepos confidence avg: 86.3265306122449
+falsepos confidence avg: 84.57446808510639
+falseneg confidence avg: 0
+trueneg confidence avg: 62.5
+Accuracy: 0.53
+Precision: 0.5104166666666666
+Recall: 1.0
+F1-Score: 0.6758620689655173
+
+Errors (not parsed): 
+
+
+Average Accuracy score across 10 runs: 0.537
+Average Precision score across 10 runs: 0.5144384651760808
+Average Recall score across 10 runs: 0.9938775510204081
+Average F1 score across 10 runs: 0.6779055453454956
