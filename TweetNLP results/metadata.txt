@@ -1,0 +1,9 @@
+Results for TweetNLP using dataset fixedsetreadin: 
+Confusion Matrix:
+23  6
+55  16
+Accuracy: 0.39
+Precision: 0.2948717948717949
+Recall: 0.7931034482758621
+F1-Score: 0.42990654205607476
+

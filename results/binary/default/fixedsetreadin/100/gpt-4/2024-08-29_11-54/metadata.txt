@@ -1,0 +1,139 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
+Alternate Prompt (prompt engineering): No
+Dataset: datasets\fixedsetreadin.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+11  18
+6  64
+Accuracy: 0.7575757575757576
+Precision: 0.6470588235294118
+Recall: 0.3793103448275862
+F1-Score: 0.4782608695652174
+
+Errors (not parsed): 
+34: [No statement provided.]
+
+
+Results for run 2: 
+Confusion Matrix:
+11  18
+9  61
+Accuracy: 0.7272727272727273
+Precision: 0.55
+Recall: 0.3793103448275862
+F1-Score: 0.4489795918367347
+
+Errors (not parsed): 
+34: You haven't provided any statement for me to evaluate. Please provide a statement.
+
+
+Results for run 3: 
+Confusion Matrix:
+14  15
+11  59
+Accuracy: 0.7373737373737373
+Precision: 0.56
+Recall: 0.4827586206896552
+F1-Score: 0.5185185185185185
+
+Errors (not parsed): 
+34: [deleted]
+
+
+Results for run 4: 
+Confusion Matrix:
+13  16
+10  60
+Accuracy: 0.7373737373737373
+Precision: 0.5652173913043478
+Recall: 0.4482758620689655
+F1-Score: 0.4999999999999999
+
+Errors (not parsed): 
+34: As a language model AI, I need a statement or context to analyze for irony.
+
+
+Results for run 5: 
+Confusion Matrix:
+10  19
+10  60
+Accuracy: 0.7070707070707071
+Precision: 0.5
+Recall: 0.3448275862068966
+F1-Score: 0.40816326530612246
+
+Errors (not parsed): 
+34: Your prompt is empty. Please provide a statement.
+
+
+Results for run 6: 
+Confusion Matrix:
+13  16
+10  60
+Accuracy: 0.7373737373737373
+Precision: 0.5652173913043478
+Recall: 0.4482758620689655
+F1-Score: 0.4999999999999999
+
+Errors (not parsed): 
+34: As there is no statement provided, I cannot determine if it's ironic. Please provide a statement.
+
+
+Results for run 7: 
+Confusion Matrix:
+12  17
+11  59
+Accuracy: 0.7171717171717171
+Precision: 0.5217391304347826
+Recall: 0.41379310344827586
+F1-Score: 0.4615384615384615
+
+Errors (not parsed): 
+34: You didn't provide any text to analyze. Please write a sentence for me to evaluate its irony.
+
+
+Results for run 8: 
+Confusion Matrix:
+12  17
+10  61
+Accuracy: 0.73
+Precision: 0.5454545454545454
+Recall: 0.41379310344827586
+F1-Score: 0.47058823529411764
+
+Errors (not parsed): 
+
+
+Results for run 9: 
+Confusion Matrix:
+11  18
+9  61
+Accuracy: 0.7272727272727273
+Precision: 0.55
+Recall: 0.3793103448275862
+F1-Score: 0.4489795918367347
+
+Errors (not parsed): 
+34: As there is no statement provided, it is impossible for me to detect irony. Please provide a statement.
+
+
+Results for run 10: 
+Confusion Matrix:
+14  15
+10  60
+Accuracy: 0.7474747474747475
+Precision: 0.5833333333333334
+Recall: 0.4827586206896552
+F1-Score: 0.5283018867924529
+
+Errors (not parsed): 
+34: As there's no statement provided, I can't detect any irony. Therefore, the answer is '0'.
+
+
+Average Accuracy score across 10 runs: 0.7325959595959597
+Average Precision score across 10 runs: 0.5588020615360769
+Average Recall score across 10 runs: 0.4172413793103448
+Average F1 score across 10 runs: 0.476333042068836
