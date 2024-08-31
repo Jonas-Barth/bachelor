@@ -1,0 +1,9 @@
+Results for TweetNLP using dataset manual_select_odd: 
+Confusion Matrix:
+34  16
+23  27
+Accuracy: 0.61
+Precision: 0.5964912280701754
+Recall: 0.68
+F1-Score: 0.6355140186915889
+
