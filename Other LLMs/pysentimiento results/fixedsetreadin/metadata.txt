@@ -1,4 +1,4 @@
-Results for TweetNLP using dataset fixedsetreadin: 
+Results for Pysentimiento using dataset fixedsetreadin: 
 Confusion Matrix:
 18  11
 19  52

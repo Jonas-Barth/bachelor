@@ -1,4 +1,4 @@
-Results for TweetNLP using dataset manual_select_odd: 
+Results for Pysentimiento using dataset manual_select_odd: 
 Confusion Matrix:
 43  7
 22  28
