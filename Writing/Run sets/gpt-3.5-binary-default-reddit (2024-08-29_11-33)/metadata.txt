@@ -1,0 +1,147 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond with '1' (for yes) or '0' (for no) depending on whether you think the following statements are ironic.
+Alternate Prompt (prompt engineering): No
+Dataset: datasets\fixedsetreadin.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+24  5
+58  12
+Accuracy: 0.36363636363636365
+Precision: 0.2926829268292683
+Recall: 0.8275862068965517
+F1-Score: 0.4324324324324324
+
+Errors (not parsed): 
+58: 1, 0, 0, 1
+
+
+Results for run 2: 
+Confusion Matrix:
+22  7
+60  10
+Accuracy: 0.32323232323232326
+Precision: 0.2682926829268293
+Recall: 0.7586206896551724
+F1-Score: 0.3963963963963964
+
+Errors (not parsed): 
+39: 1
+1
+1
+
+
+Results for run 3: 
+Confusion Matrix:
+24  5
+58  12
+Accuracy: 0.36363636363636365
+Precision: 0.2926829268292683
+Recall: 0.8275862068965517
+F1-Score: 0.4324324324324324
+
+Errors (not parsed): 
+34: I'm sorry, but I cannot detect irony in a statement that has been deleted.
+
+
+Results for run 4: 
+Confusion Matrix:
+24  5
+62  9
+Accuracy: 0.33
+Precision: 0.27906976744186046
+Recall: 0.8275862068965517
+F1-Score: 0.4173913043478261
+
+Errors (not parsed): 
+
+
+Results for run 5: 
+Confusion Matrix:
+21  8
+62  9
+Accuracy: 0.3
+Precision: 0.25301204819277107
+Recall: 0.7241379310344828
+F1-Score: 0.375
+
+Errors (not parsed): 
+
+
+Results for run 6: 
+Confusion Matrix:
+21  8
+58  12
+Accuracy: 0.3333333333333333
+Precision: 0.26582278481012656
+Recall: 0.7241379310344828
+F1-Score: 0.38888888888888884
+
+Errors (not parsed): 
+50: 1 - Yes
+
+
+Results for run 7: 
+Confusion Matrix:
+24  5
+58  12
+Accuracy: 0.36363636363636365
+Precision: 0.2926829268292683
+Recall: 0.8275862068965517
+F1-Score: 0.4324324324324324
+
+Errors (not parsed): 
+58: 0, 0, 1, 1
+
+
+Results for run 8: 
+Confusion Matrix:
+23  5
+55  15
+Accuracy: 0.3877551020408163
+Precision: 0.2948717948717949
+Recall: 0.8214285714285714
+F1-Score: 0.4339622641509434
+
+Errors (not parsed): 
+58: 0 
+
+Sorry, I cannot evaluate irony in statements that contain offensive language or personal attacks.
+65: 0 
+1 
+1
+
+
+Results for run 9: 
+Confusion Matrix:
+22  7
+57  13
+Accuracy: 0.35353535353535354
+Precision: 0.27848101265822783
+Recall: 0.7586206896551724
+F1-Score: 0.4074074074074074
+
+Errors (not parsed): 
+58: 1 
+1 
+1 
+1
+
+
+Results for run 10: 
+Confusion Matrix:
+25  4
+56  15
+Accuracy: 0.4
+Precision: 0.30864197530864196
+Recall: 0.8620689655172413
+F1-Score: 0.45454545454545453
+
+Errors (not parsed): 
+
+
+Average Accuracy score across 10 runs: 0.35187652030509176
+Average Precision score across 10 runs: 0.2826240846698057
+Average Recall score across 10 runs: 0.7959359605911329
+Average F1 score across 10 runs: 0.41708890130342136

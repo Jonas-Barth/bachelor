@@ -1,0 +1,140 @@
+Model used: gpt-4
+Prompt: You are an irony detector. Respond to messages with your evaluation of how ironic the message is, given only as a percentage, such as '50%'.
+Alternate Prompt (prompt engineering): No
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+28  21
+3  47
+Accuracy: 0.7575757575757576
+Precision: 0.9032258064516129
+Recall: 0.5714285714285714
+F1-Score: 0.7000000000000001
+
+Errors (not parsed): 
+93: As an AI, I need additional context to accurately calculate the irony percentage. Could you provide more details, please?
+
+
+Results for run 2: 
+Confusion Matrix:
+28  21
+2  48
+Accuracy: 0.7676767676767676
+Precision: 0.9333333333333333
+Recall: 0.5714285714285714
+F1-Score: 0.7088607594936709
+
+Errors (not parsed): 
+93: Without any additional context or information, it's impossible to determine the presence or degree of irony. Therefore, it's 0%.
+
+
+Results for run 3: 
+Confusion Matrix:
+32  17
+3  47
+Accuracy: 0.797979797979798
+Precision: 0.9142857142857143
+Recall: 0.6530612244897959
+F1-Score: 0.7619047619047618
+
+Errors (not parsed): 
+93: Without additional context, irony cannot be determined. 0%
+
+
+Results for run 4: 
+Confusion Matrix:
+30  19
+3  47
+Accuracy: 0.7777777777777778
+Precision: 0.9090909090909091
+Recall: 0.6122448979591837
+F1-Score: 0.7317073170731708
+
+Errors (not parsed): 
+93: Insufficient data. Please provide more context.
+
+
+Results for run 5: 
+Confusion Matrix:
+30  19
+2  48
+Accuracy: 0.7878787878787878
+Precision: 0.9375
+Recall: 0.6122448979591837
+F1-Score: 0.7407407407407408
+
+Errors (not parsed): 
+93: As an AI, I would need more specific detail to compute the level of irony accurately. Please provide more context.
+
+
+Results for run 6: 
+Confusion Matrix:
+28  21
+3  47
+Accuracy: 0.7575757575757576
+Precision: 0.9032258064516129
+Recall: 0.5714285714285714
+F1-Score: 0.7000000000000001
+
+Errors (not parsed): 
+93: As an AI, I need more context to provide an accurate response. Could you please provide a bit more detail?
+
+
+Results for run 7: 
+Confusion Matrix:
+26  23
+3  47
+Accuracy: 0.7373737373737373
+Precision: 0.896551724137931
+Recall: 0.5306122448979592
+F1-Score: 0.6666666666666666
+
+Errors (not parsed): 
+93: Your message does not provide enough context for me to detect irony. Please provide more details.
+
+
+Results for run 8: 
+Confusion Matrix:
+27  22
+4  46
+Accuracy: 0.7373737373737373
+Precision: 0.8709677419354839
+Recall: 0.5510204081632653
+F1-Score: 0.6749999999999999
+
+Errors (not parsed): 
+93: Please provide further context or information for an accurate evaluation of irony.
+
+
+Results for run 9: 
+Confusion Matrix:
+27  22
+3  47
+Accuracy: 0.7474747474747475
+Precision: 0.9
+Recall: 0.5510204081632653
+F1-Score: 0.6835443037974683
+
+Errors (not parsed): 
+93: As an AI, I need a specific statement or situation to evaluate irony. Could you give me more information?
+
+
+Results for run 10: 
+Confusion Matrix:
+26  23
+3  47
+Accuracy: 0.7373737373737373
+Precision: 0.896551724137931
+Recall: 0.5306122448979592
+F1-Score: 0.6666666666666666
+
+Errors (not parsed): 
+93: Without further context, I cannot assess irony. Please provide a fuller statement or scenario.
+
+
+Average Accuracy score across 10 runs: 0.7606060606060605
+Average Precision score across 10 runs: 0.9064732759824528
+Average Recall score across 10 runs: 0.5755102040816327
+Average F1 score across 10 runs: 0.7035091216343147

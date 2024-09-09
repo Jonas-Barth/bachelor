@@ -1,0 +1,133 @@
+Model used: gpt-4
+Prompt: You are a sentiment detector. Assign posts a sentiment from the following list depending on which you consider most appropriate: angry, sad, ironic, happy, neutral, confused. Respond only with one word.
+Alternate Prompt (prompt engineering): No
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+33  15
+7  44
+Accuracy: 0.7777777777777778
+Precision: 0.825
+Recall: 0.6875
+F1-Score: 0.75
+
+Errors (not parsed): 
+29: Inspirational
+
+
+Results for run 2: 
+Confusion Matrix:
+33  16
+9  42
+Accuracy: 0.75
+Precision: 0.7857142857142857
+Recall: 0.673469387755102
+F1-Score: 0.7252747252747253
+
+Errors (not parsed): 
+
+
+Results for run 3: 
+Confusion Matrix:
+34  15
+7  44
+Accuracy: 0.78
+Precision: 0.8292682926829268
+Recall: 0.6938775510204082
+F1-Score: 0.7555555555555555
+
+Errors (not parsed): 
+
+
+Results for run 4: 
+Confusion Matrix:
+33  16
+6  44
+Accuracy: 0.7777777777777778
+Precision: 0.8461538461538461
+Recall: 0.673469387755102
+F1-Score: 0.75
+
+Errors (not parsed): 
+25: Determined
+
+
+Results for run 5: 
+Confusion Matrix:
+32  17
+6  45
+Accuracy: 0.77
+Precision: 0.8421052631578947
+Recall: 0.6530612244897959
+F1-Score: 0.735632183908046
+
+Errors (not parsed): 
+
+
+Results for run 6: 
+Confusion Matrix:
+32  17
+8  43
+Accuracy: 0.75
+Precision: 0.8
+Recall: 0.6530612244897959
+F1-Score: 0.7191011235955055
+
+Errors (not parsed): 
+
+
+Results for run 7: 
+Confusion Matrix:
+33  16
+7  44
+Accuracy: 0.77
+Precision: 0.825
+Recall: 0.673469387755102
+F1-Score: 0.7415730337078652
+
+Errors (not parsed): 
+
+
+Results for run 8: 
+Confusion Matrix:
+33  16
+6  45
+Accuracy: 0.78
+Precision: 0.8461538461538461
+Recall: 0.673469387755102
+F1-Score: 0.75
+
+Errors (not parsed): 
+
+
+Results for run 9: 
+Confusion Matrix:
+33  16
+6  45
+Accuracy: 0.78
+Precision: 0.8461538461538461
+Recall: 0.673469387755102
+F1-Score: 0.75
+
+Errors (not parsed): 
+
+
+Results for run 10: 
+Confusion Matrix:
+33  15
+6  45
+Accuracy: 0.7878787878787878
+Precision: 0.8461538461538461
+Recall: 0.6875
+F1-Score: 0.7586206896551724
+
+Errors (not parsed): 
+47: Nostalgic
+
+
+Average Accuracy score across 10 runs: 0.7723434343434344
+Average Precision score across 10 runs: 0.8291703226170493
+Average Recall score across 10 runs: 0.674234693877551
+Average F1 score across 10 runs: 0.743575731169687

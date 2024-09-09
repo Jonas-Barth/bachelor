@@ -161,7 +161,11 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-/Writing/*
+/Writing/Reference Papers
+/Writing/Antrag.pdf
+/Writing/Q.txt
+/Writing/Structure.rtf
+/Writing/Week6-evaluation.pdf
 /WritingOld/*
 /archive/*
 /sarcasm/*

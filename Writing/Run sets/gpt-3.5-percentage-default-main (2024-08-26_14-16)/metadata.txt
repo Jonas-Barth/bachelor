@@ -1,0 +1,139 @@
+Model used: gpt-3.5-turbo
+Prompt: You are an irony detector. Respond to messages with your evaluation of how ironic the message is, given only as a percentage, such as '50%'.
+Alternate Prompt (prompt engineering): No
+Dataset: datasets\tweet_eval_irony_train.csv
+Amount of individual evaluations (sample size): 100
+
+Results for run 1: 
+Confusion Matrix:
+40  9
+14  37
+Accuracy: 0.77
+Precision: 0.7407407407407407
+Recall: 0.8163265306122449
+F1-Score: 0.7766990291262137
+
+Errors (not parsed): 
+
+
+Results for run 2: 
+Confusion Matrix:
+37  11
+18  33
+Accuracy: 0.7070707070707071
+Precision: 0.6727272727272727
+Recall: 0.7708333333333334
+F1-Score: 0.7184466019417476
+
+Errors (not parsed): 
+66: I would rate this message as 70% ironic. The user starts by acknowledging that watching creepy things before bed when alone is a bad idea, but then proceeds to ask about turning a French bulldog into a big ass bulldog, which is obviously not something that can be achieved through a spell.
+
+
+Results for run 3: 
+Confusion Matrix:
+32  17
+15  34
+Accuracy: 0.673469387755102
+Precision: 0.6808510638297872
+Recall: 0.6530612244897959
+F1-Score: 0.6666666666666666
+
+Errors (not parsed): 
+64: I would rate this message as 80% ironic. The message highlights the irony of a ruling party misusing their power while the Prime Minister speaks in foreign parliaments and travels outside of India during a session, which goes against the expected norms and duties of a political leader.
+93: I'm sorry, I cannot provide an evaluation on this message without further context or information. Please provide more details for me to assess the irony percentage.
+
+
+Results for run 4: 
+Confusion Matrix:
+36  12
+16  35
+Accuracy: 0.7171717171717171
+Precision: 0.6923076923076923
+Recall: 0.75
+F1-Score: 0.7199999999999999
+
+Errors (not parsed): 
+8: I would rate this message as 70% ironic. The user is describing a series of unfortunate events, but then sarcastically applauds the situation with a "#slowclap," indicating a sense of irony or sarcasm.
+
+
+Results for run 5: 
+Confusion Matrix:
+37  12
+17  34
+Accuracy: 0.71
+Precision: 0.6851851851851852
+Recall: 0.7551020408163265
+F1-Score: 0.7184466019417475
+
+Errors (not parsed): 
+
+
+Results for run 6: 
+Confusion Matrix:
+35  13
+19  32
+Accuracy: 0.6767676767676768
+Precision: 0.6481481481481481
+Recall: 0.7291666666666666
+F1-Score: 0.6862745098039215
+
+Errors (not parsed): 
+8: I would rate this message as 80% ironic. The user is sarcastically suggesting that having their Garmin reset and spilling cinnamon on themselves are not signs of a great day.
+
+
+Results for run 7: 
+Confusion Matrix:
+35  14
+18  32
+Accuracy: 0.6767676767676768
+Precision: 0.660377358490566
+Recall: 0.7142857142857143
+F1-Score: 0.6862745098039216
+
+Errors (not parsed): 
+90: I would say this message is 0% ironic.
+
+
+Results for run 8: 
+Confusion Matrix:
+37  12
+17  32
+Accuracy: 0.7040816326530612
+Precision: 0.6851851851851852
+Recall: 0.7551020408163265
+F1-Score: 0.7184466019417475
+
+Errors (not parsed): 
+56: I would rate this as 30% ironic. The message starts with a serious concern about physical pain but then abruptly shifts to a random question about a seemingly unrelated topic, Madaka, which adds a layer of confusion and absurdity to the message.
+90: I would rate this message as 0% ironic.
+
+
+Results for run 9: 
+Confusion Matrix:
+34  15
+16  34
+Accuracy: 0.6868686868686869
+Precision: 0.68
+Recall: 0.6938775510204082
+F1-Score: 0.686868686868687
+
+Errors (not parsed): 
+58: I would rate this message as 0% ironic.
+
+
+Results for run 10: 
+Confusion Matrix:
+35  14
+24  27
+Accuracy: 0.62
+Precision: 0.5932203389830508
+Recall: 0.7142857142857143
+F1-Score: 0.6481481481481481
+
+Errors (not parsed): 
+
+
+Average Accuracy score across 10 runs: 0.6942197485054628
+Average Precision score across 10 runs: 0.6738742985597628
+Average Recall score across 10 runs: 0.7352040816326532
+Average F1 score across 10 runs: 0.7026271356242801
